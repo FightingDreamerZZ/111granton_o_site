@@ -170,7 +170,7 @@
 							<span>Albion Golf Cars</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/AlbionGolfCars.png" class="img-responsive" />
+							<img src="img/dealers/AlbionGolfCars.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -206,7 +206,7 @@
 							<span>Bennette Golf Cars</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/BennetteGolfCars.png" class="img-responsive" />
+							<img src="img/dealers/BennetteGolfCars.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -242,7 +242,7 @@
 							<span>Canadian Cart Sales</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/CanadianCartSales.png" class="img-responsive" />
+							<img src="img/dealers/CanadianCartSales.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -277,7 +277,7 @@
 							<span>Cart Guy</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/CartGuy.png" class="img-responsive" />
+							<img src="img/dealers/CartGuy.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -316,7 +316,7 @@
 							<span>Cart World</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/CartWorld.png" class="img-responsive" />
+							<img src="img/dealers/CartWorld.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -352,7 +352,7 @@
 							<span>Doug Garner Golf Cart Shop</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/DougGarner.png" class="img-responsive" />
+							<img src="img/dealers/DougGarner.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -388,7 +388,7 @@
 							<span>Otterville Custom Golf Carts</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/OttervilleCustomCarts.png" class="img-responsive" />
+							<img src="img/dealers/OttervilleCustomCarts.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -424,7 +424,7 @@
 							<span>Skyway Lawn Equipment Ltd.</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/SkywayLawn.png" class="img-responsive" />
+							<img src="img/dealers/SkywayLawn.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -461,7 +461,7 @@
 							<span>Trailer Trash Toyz</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/TrailerTrashToyz.png" class="img-responsive" />
+							<img src="img/dealers/TrailerTrashToyz.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -497,7 +497,7 @@
 							<span>Wayne Morrow Auto</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/dealer-placeholder.png" class="img-responsive" />
+							<img src="img/dealers/dealer-placeholder.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -532,7 +532,7 @@
 							<span>Websters Beacon</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/WebstersBeacon.png" class="img-responsive" />
+							<img src="img/dealers/WebstersBeacon.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -567,7 +567,7 @@
 							<span>Rick Butera</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/dealer-placeholder.png" class="img-responsive" />
+							<img src="img/dealers/dealer-placeholder.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -602,7 +602,7 @@
 							<span>Calgary Golf Car Center</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/dealer-placeholder.png" class="img-responsive" />
+							<img src="img/dealers/dealer-placeholder.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -636,7 +636,7 @@
 							<span>Koolsville Kustoms Ltd.</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/KoolsvilleKustoms.png" class="img-responsive" />
+							<img src="img/dealers/KoolsvilleKustoms.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -668,7 +668,7 @@
 							<span>Lakeview Small Power</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/LakeviewSmallPower.png" class="img-responsive" />
+							<img src="img/dealers/LakeviewSmallPower.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -708,7 +708,7 @@
 							<span>Golfmobiles Inc.</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/GolfmobilesInc.png" class="img-responsive" />
+							<img src="img/dealers/GolfmobilesInc.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -741,7 +741,7 @@
 							<span>Gestion Cart</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/GestionCart.png" class="img-responsive" />
+							<img src="img/dealers/GestionCart.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -775,7 +775,7 @@
 							<span>Voiturettes M. Bouchard</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/MBouchard.png" class="img-responsive" />
+							<img src="img/dealers/MBouchard.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -814,7 +814,7 @@
 							<span>Recreation Sport Carts</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/RecreationSportsCarts.png" class="img-responsive" />
+							<img src="img/dealers/RecreationSportsCarts.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -854,7 +854,7 @@
 							<span>Superior Carts & Rentals</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/SuperiorCart.png" class="img-responsive" />
+							<img src="img/dealers/SuperiorCart.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -894,7 +894,7 @@
 							<span>Atlantic Golf Equipment Services Ltd.</span>
 						</div>
 						<div class="image">
-							<img src="/img/dealers/AtlanticGolfEquipServicesLtd.png" class="img-responsive" />
+							<img src="img/dealers/AtlanticGolfEquipServicesLtd.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
