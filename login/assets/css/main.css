@@ -1,0 +1,22 @@
+header { padding:25px 0; background-color:#fff; border-bottom:5px solid #000;}
+footer { padding:25px 0; background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#444), to(#222)); color:#fff; font-size:12px;}
+body { background:url('gfx/bg-body.jpg'); background-attachment:fixed;}
+
+span.version { display:block; font-size:10px; font-style:italic;}
+
+#content { background-color:rgba(255,255,255,0.65);}
+#content .container{ background-color:rgba(0,0,0,0.9); color:#fff; padding-top:50px; padding-bottom:50px;}
+
+#login-form { background-color:rgba(255,255,255,0.6); border-radius:10px; padding:25px;}
+#login-form label { color:#000;}
+#login-form .remember-me input { margin-top:0; vertical-align:middle;}
+#login-form .remember-me label { font-size:12px; font-weight:normal; cursor:pointer;}
+
+#login-form #feedback { display:none; background:#fff; padding:15px; color:#000}
+#login-form #feedback p { margin-bottom:0;}
+#login-form #feedback.passed { color:darkgreen;}
+#login-form #feedback.failed { color:darkred;}
+
+#client-table > tbody > tr { color:#000;}
+#client-table > tbody > tr:first-child { background-color:#899a38;}
+#client-table.table-striped > tbody > tr:nth-of-type(even) { color:#fff;}
