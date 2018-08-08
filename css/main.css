@@ -211,6 +211,11 @@ footer #dealer-directory-button:hover { background-color:#445500; color:#fff;}
 .product-carousel .slick-prev { width:40px; height:40px; left:340px; top:40%; z-index:1;}
 .product-carousel .slick-next { width:40px; height:40px; right:340px; top:40%; z-index:1;}
 
+.homepage-carousel .slick-prev:before, .homepage-carousel .slick-next:before { color:#a0c800; font-size:50px;}
+/*.homepage-carousel .slick-prev { width:40px; height:40px; left:-440px; top:40%; z-index:1;}*/
+.homepage-carousel .slick-prev { width:50px; height:50px; margin-left: -55%/*-415px*/; top:50%; z-index:1;}
+.homepage-carousel .slick-next { width:50px; height:50px; margin-right:-3%/*-24px*/; top:50%; z-index:1;}
+
 /* Homepage Carousel */
 .homepage-carousel div > img { max-height:100%; width:auto;}
 
@@ -464,7 +469,10 @@ footer #dealer-directory-button:hover { background-color:#445500; color:#fff;}
 
 	.navbar-toggle { margin-top:20px;}
 
-	
+    .homepage-carousel .slick-prev:before, .homepage-carousel .slick-next:before { color:#a0c800; font-size:30px;}
+    /*.homepage-carousel .slick-prev { width:40px; height:40px; left:-440px; top:40%; z-index:1;}*/
+    .homepage-carousel .slick-prev { width:30px; height:30px; margin-left: -52%/*-415px*/; top:60%; z-index:1;}
+    .homepage-carousel .slick-next { width:30px; height:30px; margin-right:4%/*-24px*/; top:60%; z-index:1;}
 
 	#type-content #golf.active:before { left:-35%;}
     #type-content #lsv.active:before { left:0;}

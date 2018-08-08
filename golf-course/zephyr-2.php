@@ -41,16 +41,16 @@
 				<div class="col-sm-7">
 					<div class="slideshow">
 						<div>
-							<img src="img/slideshow/zephyr-2/slideshow-1.png" />
+							<img src="../img/slideshow/zephyr-2/slideshow-1.png" />
 						</div>
 						<div>
-							<img src="img/slideshow/zephyr-2/slideshow-2.png" />
+							<img src="../img/slideshow/zephyr-2/slideshow-2.png" />
 						</div>
 						<div>
-							<img src="img/slideshow/zephyr-2/slideshow-3.png" />
+							<img src="../img/slideshow/zephyr-2/slideshow-3.png" />
 						</div>
 						<div>
-							<img src="img/slideshow/zephyr-2/slideshow-4.png" />
+							<img src="../img/slideshow/zephyr-2/slideshow-4.png" />
 						</div>
 					</div>
 				</div>
@@ -64,25 +64,25 @@
 				<div class="col-lg-8 col-md-7 col-sm-6">
 					<div class="main-image-carousel">
 						<div>
-							<img src="img/product/zephyr/front-white.jpg" />
+							<img src="../img/product/zephyr/front-white.jpg" />
 						</div>
 						<div>
-							<img src="img/product/zephyr/front-red.jpg" />
+							<img src="../img/product/zephyr/front-red.jpg" />
 						</div>
 						<div>
-							<img src="img/product/zephyr/front-blue.jpg" />
+							<img src="../img/product/zephyr/front-blue.jpg" />
 						</div>
 						<div>
-							<img src="img/product/zephyr/front-green.jpg" />
+							<img src="../img/product/zephyr/front-green.jpg" />
 						</div>
 						<div>
-							<img src="img/product/zephyr/front-silver.jpg" />
+							<img src="../img/product/zephyr/front-silver.jpg" />
 						</div>
 						<div>
-							<img src="img/product/zephyr/front-black.jpg" />
+							<img src="../img/product/zephyr/front-black.jpg" />
 						</div>
 						<div>
-							<img src="img/product/zephyr/front-gold.jpg" />
+							<img src="../img/product/zephyr/front-gold.jpg" />
 						</div>
 					</div>
 				</div>

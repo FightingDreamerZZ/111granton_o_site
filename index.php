@@ -440,7 +440,7 @@
   				slidesToScroll: 1,
   				adaptiveHeight: false,
   				dots: true,
-  				arrows: false,
+  				arrows: true,
   				fade: true,
   				autoplay: false
 			});
