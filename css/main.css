@@ -100,7 +100,7 @@ header .nav>li { position:initial;}
 #slider .slick-dots li button:before { color:#fff;}
 #slider .slick-dots li.slick-active button:before { color:#a0c800;}
 
-
+.homepage-carousel .slick-dots {width:30px; height:30px}
 
 /* Type Bar */
 #type-bar { padding:30px 0 30px; background-image:url('gfx/bg-type_bar.jpg'); background-position:center;}
@@ -381,7 +381,8 @@ footer #dealer-directory-button:hover { background-color:#445500; color:#fff;}
     .product-carousel .slick-prev { left:290px;}
     .product-carousel .slick-next { right:290px;}
 
-    .homepage-carousel .slick-dots { bottom:-45px;}
+    /*.homepage-carousel .slick-dots { bottom:-45px;}*/
+    .homepage-carousel .slick-dots { bottom:20px;}
 
     #slider { height:500px;}
 

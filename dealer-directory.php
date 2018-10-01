@@ -800,6 +800,40 @@
 						</div>
 					</div>
 				</div><!-- Dealer Item -->
+
+                <div class="dealer quebec montreal col-sm-3">
+                    <div class="dealer-wrapper margin-top-20">
+                        <div class="title">
+                            <span>Voiturette de Golf Saguenay</span>
+                        </div>
+                        <div class="image">
+                            <img src="img/dealers/VoituretteDeGolfSaguenay.jpg" class="img-responsive" />
+                        </div>
+                        <div class="address">
+                            <ul>
+                                <li>360 Route 381</li>
+                                <li>Ferland-et-Boilleau, QC. G0V 1H0</li>
+                            </ul>
+                        </div>
+                        <div class="phone">
+                            <ul>
+                                <li><i class="fa fa-phone fa-fw"></i> Local: <a href="tel:+14186761073">418-676-1073</a></li>
+                                <li><i class="fa fa-phone fa-fw"></i> Local: <a href="tel:+14189441972">418-944-1972</a></li>
+<!--                                <li><i class="fa fa-fax fa-fw"></i> Fax: 514-738-3048</li>-->
+                            </ul>
+                        </div>
+                        <div class="email">
+                            <ul>
+                                <li><i class="fa fa-envelope fa-fw"></i> cartdegolfsaguenay@hotmail.fr</li>
+                            </ul>
+                        </div>
+                        <div class="website">
+                            <ul>
+                                <li><i class="fa fa-globe fa-fw"></i> <a href="cartdegolfsaguenay.com" target="_blank" rel="nofollow">Visit Dealer Website</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!-- Dealer Item -->
 			</div><!-- End Quebec Row -->
 
 
