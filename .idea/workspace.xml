@@ -34,11 +34,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="193" column="37" lean-forward="true" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
+            <state relative-caret-position="1143">
+              <caret line="122" column="22" lean-forward="true" selection-start-line="79" selection-start-column="16" selection-end-line="122" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-442">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="122" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="code_temp.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/temp/code_temp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -46,7 +64,7 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1853">
+            <state relative-caret-position="17">
               <caret line="109" column="42" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
             </state>
           </provider>
@@ -55,7 +73,7 @@
       <file leaf-file-name="dealer-directory.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dealer-directory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13719">
+            <state relative-caret-position="343">
               <caret line="807" column="30" lean-forward="true" selection-start-line="807" selection-start-column="30" selection-end-line="807" selection-end-column="30" />
             </state>
           </provider>
@@ -107,7 +125,6 @@
         <option value="$PROJECT_DIR$/passenger/hobbit-6-plus-2.php" />
         <option value="$PROJECT_DIR$/passenger/rambler.php" />
         <option value="$PROJECT_DIR$/passenger/zephyr-4-plus-2.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/utility/hobbit-2-plus-2.php" />
         <option value="$PROJECT_DIR$/golf-course/zephyr-2.php" />
         <option value="$PROJECT_DIR$/css/main.css" />
@@ -115,11 +132,13 @@
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/dealer-directory.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-6g.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-g.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-2g.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-4g.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/zephyr-2.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/inc.header.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
+        <option value="$PROJECT_DIR$/temp/code_temp.php" />
       </list>
     </option>
   </component>
@@ -154,6 +173,11 @@
               <item name="111granton_o_site" type="b2602c69:ProjectViewProjectNode" />
               <item name="111granton_o_site" type="462c0819:PsiDirectoryNode" />
               <item name="golf-course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="111granton_o_site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="111granton_o_site" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,18 +227,18 @@
       <workItem from="1535478912755" duration="44000" />
       <workItem from="1535552426671" duration="4238000" />
       <workItem from="1537965689053" duration="1775000" />
-      <workItem from="1538415268486" duration="561000" />
+      <workItem from="1538415268486" duration="1977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28508000" />
+    <option name="totallyTimeSpent" value="29924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48467967" visible="true" weight="0.15973154" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48467967" visible="true" weight="0.15973154" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -242,13 +266,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/include/inc.javascript.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" selection-start-column="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4769">
@@ -522,21 +539,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="109" column="42" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/dealer-directory.php" />
-    <entry file="file://$PROJECT_DIR$/dealer-directory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13719">
-          <caret line="807" column="30" lean-forward="true" selection-start-line="807" selection-start-column="30" selection-end-line="807" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/inc.header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="11305">
@@ -579,11 +582,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="109" column="42" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dealer-directory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="807" column="30" lean-forward="true" selection-start-line="807" selection-start-column="30" selection-end-line="807" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="193" column="37" lean-forward="true" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
+        <state relative-caret-position="1143">
+          <caret line="122" column="22" lean-forward="true" selection-start-line="79" selection-start-column="16" selection-end-line="122" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="122" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp/code_temp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
         </state>
       </provider>
     </entry>
