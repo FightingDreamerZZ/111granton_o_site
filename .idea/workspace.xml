@@ -34,29 +34,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1143">
-              <caret line="122" column="22" lean-forward="true" selection-start-line="79" selection-start-column="16" selection-end-line="122" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-442">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="122" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="code_temp.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/temp/code_temp.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+            <state relative-caret-position="438">
+              <caret line="442" column="29" selection-start-line="442" selection-start-column="29" selection-end-line="442" selection-end-column="29" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#2;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#4;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#6;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#1;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,17 +58,65 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="109" column="42" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
+            <state relative-caret-position="229">
+              <caret line="214" column="72" lean-forward="true" selection-start-line="214" selection-start-column="72" selection-end-line="214" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dealer-directory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dealer-directory.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="807" column="30" lean-forward="true" selection-start-line="807" selection-start-column="30" selection-end-line="807" selection-end-column="30" />
+            <state relative-caret-position="221">
+              <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="code_temp.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/temp/code_temp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="61" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#2;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#4;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#6;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h4#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax-post.form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/ajax-post.form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="84" column="5" lean-forward="true" selection-end-line="163" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="574">
+              <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax-post.form.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/ajax-post.form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="633">
+              <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
             </state>
           </provider>
         </entry>
@@ -88,7 +130,6 @@
       <find>Previous</find>
       <find>product-carousel initial</find>
       <find>slick-theme.css</find>
-      <find>homepage-carousel</find>
       <find>slick-dots</find>
       <find>Quebec Dealers</find>
       <find>sorel-tracy</find>
@@ -96,6 +137,11 @@
       <find>cricket-2.php</find>
       <find>cricket-4.php</find>
       <find>cricket-6.php</find>
+      <find>contact-form</find>
+      <find>$destination_department</find>
+      <find>$email_to_name</find>
+      <find>product-carousel</find>
+      <find>homepage-carousel</find>
     </findStrings>
     <replaceStrings>
       <replace>img</replace>
@@ -127,7 +173,6 @@
         <option value="$PROJECT_DIR$/passenger/zephyr-4-plus-2.php" />
         <option value="$PROJECT_DIR$/utility/hobbit-2-plus-2.php" />
         <option value="$PROJECT_DIR$/golf-course/zephyr-2.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/dealer-directory.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/dealer-directory.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-6g.php" />
@@ -136,9 +181,13 @@
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-4g.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/zephyr-2.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/inc.header.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/ajax-post.form.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/system/ajax-post.form.php" />
         <option value="$PROJECT_DIR$/temp/code_temp.php" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -172,7 +221,28 @@
             <path>
               <item name="111granton_o_site" type="b2602c69:ProjectViewProjectNode" />
               <item name="111granton_o_site" type="462c0819:PsiDirectoryNode" />
-              <item name="golf-course" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="111granton_o_site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="111granton_o_site" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="111granton_o_site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="111granton_o_site" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="promo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="111granton_o_site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="111granton_o_site" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="111granton_o_site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="111granton_o_site" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="111granton_o_site" type="b2602c69:ProjectViewProjectNode" />
@@ -227,18 +297,22 @@
       <workItem from="1535478912755" duration="44000" />
       <workItem from="1535552426671" duration="4238000" />
       <workItem from="1537965689053" duration="1775000" />
-      <workItem from="1538415268486" duration="1977000" />
+      <workItem from="1538415268486" duration="3121000" />
+      <workItem from="1538588712245" duration="2532000" />
+      <workItem from="1538704498920" duration="149000" />
+      <workItem from="1541084740730" duration="5277000" />
+      <workItem from="1542766328883" duration="6611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29924000" />
+    <option name="totallyTimeSpent" value="45637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48467967" visible="true" weight="0.15973154" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.47910863" visible="true" weight="0.16778524" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -246,7 +320,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" sideWeight="0.51532036" side_tool="true" visible="true" weight="0.15973154" />
+      <window_info id="Structure" order="1" sideWeight="0.52089137" side_tool="true" visible="true" weight="0.16778524" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -256,7 +330,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3286908" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286908" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,55 +340,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4769">
-          <caret line="251" column="46" selection-start-line="251" selection-start-column="46" selection-end-line="251" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8132">
-          <caret line="428" column="34" selection-start-line="428" selection-start-column="34" selection-end-line="428" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/golf-course/zephyr-2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2603">
-          <caret line="137" column="50" selection-start-line="137" selection-start-column="50" selection-end-line="137" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utility/hobbit-2-plus-2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/inc.header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/inc.javascript.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" selection-start-column="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4769">
-          <caret line="251" column="46" selection-start-line="251" selection-start-column="46" selection-end-line="251" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8132">
@@ -511,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/inc.javascript.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" selection-start-column="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utility/hobbit-2-plus-2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -540,80 +558,114 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/dealer-directory.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/inc.header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11305">
-          <caret line="665" column="66" selection-start-line="665" selection-start-column="66" selection-end-line="665" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/zephyr-2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6902">
-          <caret line="406" column="62" selection-start-line="406" selection-start-column="62" selection-end-line="406" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-6g.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7072">
-          <caret line="416" column="62" selection-start-line="416" selection-start-column="62" selection-end-line="416" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-4g.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7123">
-          <caret line="419" column="62" selection-start-line="419" selection-start-column="62" selection-end-line="419" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-2g.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7123">
-          <caret line="419" column="62" selection-start-line="419" selection-start-column="62" selection-end-line="419" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-g.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="115" column="62" selection-start-line="115" selection-start-column="62" selection-end-line="115" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="109" column="42" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/inc.header.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/zephyr-2.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-6g.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-4g.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-2g.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-g.php" />
     <entry file="file://$PROJECT_DIR$/dealer-directory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="807" column="30" lean-forward="true" selection-start-line="807" selection-start-column="30" selection-end-line="807" selection-end-column="30" />
+        <state relative-caret-position="13719">
+          <caret line="807" column="30" selection-start-line="807" selection-start-column="30" selection-end-line="807" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
+    <entry file="file://$PROJECT_DIR$/login/main.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/inc.javascript.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1143">
-          <caret line="122" column="22" lean-forward="true" selection-start-line="79" selection-start-column="16" selection-end-line="122" selection-end-column="22" />
+        <state>
+          <caret column="49" selection-start-column="5" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php">
+    <entry file="file://$PROJECT_DIR$/contact-us.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="122" selection-end-column="37" />
+        <state relative-caret-position="408">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_7.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17425">
+          <caret line="1025" column="98" selection-start-line="1025" selection-start-column="9" selection-end-line="1025" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/ajax-post.form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="84" column="5" lean-forward="true" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/ajax-post.form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/temp/code_temp.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+        <state relative-caret-position="75">
+          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="61" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#4;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#6;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="214" column="72" lean-forward="true" selection-start-line="214" selection-start-column="72" selection-end-line="214" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="442" column="29" selection-start-line="442" selection-start-column="29" selection-end-line="442" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#4;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#6;n#div#2;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h4#0;n#div#1;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
