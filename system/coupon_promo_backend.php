@@ -1,9 +1,16 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * Date: 2018-11-27
+ * Time: 12:00 PM
+ *
+ */
+
 	session_start();
 
 	if(!isset($_SESSION["username"])){
 		header("Location: /login/");
-		exit(); 
+		exit();
 	}
 
 	// Open connection to database
@@ -24,14 +31,13 @@
 	}
 
 	// First we will check the user name
-	$query = "SELECT * FROM client ORDER BY date_created DESC;";
-	$rslt = mysqli_query($conn,$query) or die(mysql_error());
-	
-	$clients = array();
-	while($row = $rslt -> fetch_assoc()){
-		$clients[] = $row;
-	}
+	$query = "SELECT * FROM coupon ORDER BY time_generated DESC;";
+	$result_set = mysqli_query($conn,$query) or die(mysql_error());
 
+	$coupons = array();
+	while($row = $result_set -> fetch_assoc()){
+		$coupons[] = $row;
+	}
 
 
 
@@ -44,7 +50,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>AGT Electric Cars</title>
+	<title>Coupon Promo Backend</title>
 
 	<!-- Bootstrap v3.3.7 Stylesheet -->
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
@@ -57,7 +63,7 @@
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 	<!-- Custom Stylesheet -->
-	<link href="assets/css/main.css" type="text/css" rel="stylesheet" />
+	<link href="../css/system_coupon_promo_backend.css" type="text/css" rel="stylesheet" />
 </head>
 <body class="fadein subpage">
 
@@ -66,7 +72,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="text-center">
-						<img src="assets/images/logo-ch.lee.jpg" alt="Ch.Lee Logo" />
+						<img src="../login/assets/images/logo-ch.lee.jpg" alt="Ch.Lee Logo" />
 					</div>
 				</div>
 			</div>
@@ -78,7 +84,7 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="text-center">
-						<img src="assets/images/logo.png" alt="AGT Electric Car Logo" />
+						<img src="../login/assets/images/logo.png" alt="AGT Electric Car Logo" />
 						<span class="version">version: alpha 1.0.1</span>
 					</div>
 				</div>
@@ -89,45 +95,41 @@
 					<table class="table table-bordered table-striped" id="client-table">
 						<tbody>
 							<tr>
-								<th>Company Name</th>
-								<th>First Name</th>
-								<th>Last Name</th>
-								<th>Email Address</th>
-								<th>Phone Number</th>
-								<th>Email Consent</th>
+								<th>Coupon Code</th>
+								<th>Email</th>
+								<th>Status</th>
+								<th>Type</th>
+								<th>Time Generated</th>
 							</tr>
 
 							<?php
 
-								foreach($clients as $client){
+								foreach($coupons as $coupon){
 
-									$first_name = $client['fname'];
-									$last_name = $client['lname'];
-									$company_name = $client['company'];
-									$email = $client['email'];
-									$phone = $client['phone'];
-									$consent = $client['consent'];
+									$coupon_code = $coupon['coupon_code'];
+									$email = $coupon['email'];
+									$status = $coupon['status'];
+									$type = $coupon['type'];
+									$time_generated = $coupon['time_generated'];
 
-									if($consent == true){
-										$consent_display = "<span><i class=\"fa fa-check fa-fw\"></i></span>";
-									} else {
-										$consent_display = "<span><i class=\"fa fa-times fa-fw\"></i></span>";
-									}
+//									if($consent == true){
+//										$consent_display = "<span><i class=\"fa fa-check fa-fw\"></i></span>";
+//									} else {
+//										$consent_display = "<span><i class=\"fa fa-times fa-fw\"></i></span>";
+//									}
 
 
 
 									echo <<<TEMP
 									<tr>
-										<td>{$company_name}</td>
-										<td>{$first_name}</td>
-										<td>{$last_name}</td>
+										<td>{$coupon_code}</td>
 										<td>{$email}</td>
-										<td>{$phone}</td>
-										<td>{$consent_display}</td>
+										<td>{$status}</td>
+										<td>{$type}</td>
+										<td>{$time_generated}</td>
 									</tr>
 TEMP;
 								}
-
 							?>
 
 
@@ -148,7 +150,7 @@ TEMP;
 		</div>
 	</footer>
 
-	
+
 	<!-- Google jQuery v3.2.1 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!-- Bootstrap v3.3.7 JavaScript -->

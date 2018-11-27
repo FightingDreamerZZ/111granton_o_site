@@ -3,8 +3,8 @@
 
 	// Open connection to database
 	$servername = "localhost";
-	$username = "agtecar1_howard";
-	$password = "Hl757121986$";
+	$username = "root";
+	$password = "agtEcars123";
 	$dbname = "agtecar1_system";
 
 	// Create connection

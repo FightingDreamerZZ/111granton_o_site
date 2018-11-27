@@ -69,55 +69,74 @@
 
 	<section id="type-bar">
 		<div class="container">
-            <div class="row">
-                <div id="promo_anchor_caption" style="margin-top: -10px"></div>
+            <div class="row" style="margin-bottom: -10px">
+                <div id="promo_anchor_caption" style="margin-top: -70px"></div>
                 <div class="col-lg-1 col-centered" id="promo_btn_dn">
                     <a href="#promo_anchor_caption" title="Summer PROMO" class=""><img src="img/promo/btn_dn.png"/></a>
-                    <br/><br/>
+                    <br/>
+<!--                    <br/>-->
                 </div>
             </div>
 
             <div class="row" style="">
 <!--                <div class="col-lg-2"></div>-->
-                <div class="col-lg-9 col-centered">
-                    <h1 style="color:white;text-transform: none;">Summer is Awesome and so is Our $1000 PROMO!</h1>
+                <div class="col-lg-7 col-centered">
+                    <h1 style="color:white;text-transform: none;font-family: 'Times New Roman'">Get a Coupon Today for Exclusive Discount!</h1>
                     <br/>
                 </div>
 <!--                <div class="col-lg-1"></div>-->
             </div>
 
-            <div class="row">
-                <div class="col-lg-8 col-centered">
-                    <img src="img/promo/promo201808_1.jpg"  style="z-index: 3"/>
+<!--            <div class="row">-->
+<!--                <div class="col-lg-8 col-centered">-->
+<!--                    <img src="img/promo/promo201808_1.jpg"  style="z-index: 3"/>-->
+<!--                </div>-->
+<!--                <div class="promo_spacer"></div>-->
+<!--                <div class="col-lg-8 col-centered">-->
+<!--                    <img src="img/promo/promo201808_2.jpg"  style="z-index: 3"/>-->
+<!--                </div>-->
+<!--                <div class="promo_spacer"></div>-->
+<!--                <div class="col-lg-8 col-centered">-->
+<!--                    <img src="img/promo/promo201808_3.jpg"  style="z-index: 3"/>-->
+<!--                </div>-->
+<!--                <div class="promo_spacer"></div>-->
+<!--                <div class="col-lg-8 col-centered">-->
+<!--                    <img src="img/promo/promo201808_4.jpg"  style="z-index: 3"/>-->
+<!--                </div>-->
+<!--            </div>-->
+
+            <div class="row" style="margin-top: 0px">
+                <div class="col-lg-3"></div>
+<!--                <div class="col-lg-10">-->
+<!--                    <h4 style="color:#fff;text-transform: none;">-->
+<!--<!--                        Download a money-off coupon for great sale offer whether you are buying a new Zephyr or trade-in your old golf cart for a new one.-->
+<!--<!--                        Just redeem it at any of our dealer and saves instantly.-->
+<!--                        Download a money-off coupon for a great sale offer whether you are buying a new Zephyr-->
+<!--                        or trading-in your old golf cart for a new one. Redeem the coupon at any of the participating-->
+<!--                        Ontario dealerships and save instantly.-->
+<!--                    </h4>-->
+<!--                    <br/>-->
+<!--                    <p style="color:#fff;">*Promotion applies to new and pre-ordered cars only.</p>-->
+<!--                    <br/>-->
+<!--                </div>-->
+                <div class="col-lg-6">
+                    <div class="darken_img_on_hover">
+                        <div class="darken_img_on_hover_overlay"></div>
+                        <img src="img/promo/coupon_info_home_page.png"  style=""/>
+
+                        <div class="darken_img_on_hover_btn">
+                            <a href="promotion.php">Click here to start...</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="promo_spacer"></div>
-                <div class="col-lg-8 col-centered">
-                    <img src="img/promo/promo201808_2.jpg"  style="z-index: 3"/>
-                </div>
-                <div class="promo_spacer"></div>
-                <div class="col-lg-8 col-centered">
-                    <img src="img/promo/promo201808_3.jpg"  style="z-index: 3"/>
-                </div>
-                <div class="promo_spacer"></div>
-                <div class="col-lg-8 col-centered">
-                    <img src="img/promo/promo201808_4.jpg"  style="z-index: 3"/>
-                </div>
+
+                <div class="col-lg-3"></div>
             </div>
 
-            <div class="row" style="margin-top: 30px">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-10">
-                    <h4 style="color:#fff;text-transform: none;">Order a new Hobbit or Zephyr car from one of our dealers between August 1st and September 30th and receive a FREE complimentary package value at $1000.</h4>
-                    <br/>
-                    <p style="color:#fff;">*Promotion applies to new and pre-ordered cars only.</p>
-                    <br/>
-                </div>
-                <div class="col-lg-1"></div>
-            </div>
-
             <div class="row">
-                <div class="col-lg-2 col-centered" style="margin-top: -10px">
-                    <a href="dealer-directory.php" title="Find a dealer to get the promo today!" id="promo_btn_dealer" class="">Locate a Dealer</a>
+                <br />
+                <div class="col-lg-2 col-centered" style="/*margin-top: -10px*/">
+                    <a href="promotion.php" title="Find a dealer to get the promo today!" id="promo_btn_dealer" class="">Start Now</a>
                     <br/><br/>
                 </div>
             </div>
@@ -440,7 +459,7 @@
   				slidesToScroll: 1,
   				adaptiveHeight: false,
   				dots: true,
-  				arrows: false,
+  				arrows: true,
   				fade: true,
   				autoplay: false
 			});

@@ -1,6 +1,7 @@
 <header class="top-of-page">
 	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
+		<div class="container"
+            style="width:1240px"> <!--zz couponPromo-->
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
@@ -55,6 +56,8 @@
 									<span class="pull-right">Zephyr 4+2 <i class="fa fa-chevron-right fa-fw"></i></span>
 								</a>
 							</li>
+
+
 
 							<!-- Hide Large Image Menu -->
 							<li class="hidden-xs overview">
@@ -1248,7 +1251,14 @@
 					<li class="link">
 						<a href="contact-us.php">Contact Us</a>
 					</li>
+
+                    <!--zz couponPromo-->
+                    <li class="link">
+                        <a href="promotion.php">Promotion</a>
+                    </li>
+
 				</ul>
+<!--                <a href="contact-us.php">haha</a>-->
 			</div>
 		</div>
 	</nav>

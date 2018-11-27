@@ -23,7 +23,7 @@
 	<link href="css/main.css" type="text/css" rel="stylesheet" />
 
 	<!-- Google reCaptcha -->
-	<script src='https://www.google.com/recaptcha/api.js'></script>
+<!--	<script src='https://www.google.com/recaptcha/api.js'></script>-->
 </head>
 <body class="fadein contact">
 
@@ -98,7 +98,7 @@
 						</div>
 						<div class="row">
 							<div class="col-sm-12">
-								<div class="g-recaptcha" data-sitekey="6Lf9zlsUAAAAAEWV52cqnqij4VXwvtH7Tp8JEsJb"></div>
+<!--								<div class="g-recaptcha" data-sitekey="6Lf9zlsUAAAAAEWV52cqnqij4VXwvtH7Tp8JEsJb"></div>-->
 							</div>
 							<div class="col-sm-4">
 								<input type="submit" class="form-control btn btn-primary btn-block margin-top-10" value="Send" />
@@ -158,7 +158,7 @@
 			  } else {
 			    // Submit the form
 				$.ajax({
-					url: "/system/ajax-post.form.php",
+					url: "system/ajax-post.form.php",
 					data: $("#contact-form").serialize(),
 					dataType: "json",
 					type: "post",
@@ -179,7 +179,8 @@
 						}
 					},
 					error: function(data){
-						$("#contact-form #feedback").html("<div class='error'>An error has occured, please try again.</div>").fadeIn("fast");
+					    console.log(data);
+						$("#contact-form #feedback").html(data.toString() +  "<div class='error'>An error has occured, please try again.</div>").fadeIn("fast");
 						
 						setTimeout(function(){
 							$("#contact-form #feedback").fadeOut("slow",function(){ 

@@ -66,3 +66,38 @@
 RewriteCond %{HTTP_HOST} ^agtecars\.com$ [NC]
 RewriteRule ^/?$ "http\:\/\/www\.agtecars\.com\/" [R=301,L]
 
+
+===
+
+<div class="row">-->
+    <!--            <div class="col-sm-12">-->
+    <!--                <h1 class="">Why choose Zephyr?</h1>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!---->
+    <!--        <div class="row">-->
+    <!--            <div class="col-lg-10">-->
+    <!--                <p>All <a href="zephyr.php">Zephyr</a> models are equipped with LED-->
+    <!--                    energy efficient headlights. The LED lights emit-->
+    <!--                    brighter light and last up to 3 times longer than-->
+    <!--                    the average conventional headlights.-->
+    <!--                </p>-->
+    <!--            </div>-->
+    <!--            <div class="col-lg-2">-->
+    <!--                <img src="img/promo/zephyr_led_light.png" width="360" />-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--        <br />-->
+    <!--        <div class="row">-->
+    <!--            <div class="col-lg-10">-->
+    <!--                <p>Enjoy your new ride with family and friends. The-->
+    <!--                    Zephyr models are highly versatile when it-->
+    <!--                    comes to capacity and can seat anywhere-->
+    <!--                    between 2 to 6 individuals.-->
+    <!--                </p>-->
+    <!--            </div>-->
+    <!--            <div class="col-lg-2">-->
+    <!--                <img src="img/promo/zephyr_seats.png" width="360" />-->
+    <!--            </div>-->
+    <!--        </div>
+
