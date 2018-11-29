@@ -69,7 +69,7 @@ RewriteRule ^/?$ "http\:\/\/www\.agtecars\.com\/" [R=301,L]
 
 ===
 
-<div class="row">-->
+<div class="row">
     <!--            <div class="col-sm-12">-->
     <!--                <h1 class="">Why choose Zephyr?</h1>-->
     <!--            </div>-->
@@ -99,5 +99,104 @@ RewriteRule ^/?$ "http\:\/\/www\.agtecars\.com\/" [R=301,L]
     <!--            <div class="col-lg-2">-->
     <!--                <img src="img/promo/zephyr_seats.png" width="360" />-->
     <!--            </div>-->
-    <!--        </div>
+    <!--        </div>-->
+
+<?php
+$mail = new PHPMailer(true);
+try {
+    //Server settings
+//    $mail->SMTPDebug = 2;                                 // Enable verbose debug output
+//    $mail->isSMTP();                                      // Set mailer to use SMTP
+//    $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+//    $mail->SMTPAuth = true;                               // Enable SMTP authentication
+//    $mail->Username = 'smtp.jasonzhang5195@gmail.com';                 // SMTP username
+//    $mail->Password = 'xxxxxx33';                           // SMTP password
+////    $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+//    $mail->Port = 587;                                    // TCP port to connect to
+
+//    $mail->smtpConnect(
+//        array(
+//            "ssl" => array(
+//                "verify_peer" => false,
+//                "verify_peer_name" => false,
+//                "allow_self_signed" => true
+//            )
+//        )
+//    );
+
+    //Recipients
+    $mail->setFrom($email_from, $email_from_name);
+    $mail->addAddress($email_to, $email_to_name);     // Add a recipient
+//    $mail->addAddress('ellen@example.com');               // Name is optional
+//    $mail->addReplyTo('info@example.com', 'Information');
+    $mail->addCC($email_CC);
+//    $mail->addBCC('bcc@example.com');
+
+    //Attachments
+//    $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+
+    $new_coupon_code = generate_unique_coupon_code($conn);
+    $new_email = 'haha@hhahah';
+    $current_time = date("Y-m-d H:i:s");
+    $new_status='aaa';
+    $new_type='aaaa';
+
+    $stmt = $conn -> prepare("INSERT INTO `coupon` (`coupon_code`, `email`, `status`, `type`, `time_generated`) VALUES (?,?,?,?,?)");
+    $stmt -> bind_param("issss",$new_coupon_code,$new_email,$new_status,$new_type,$current_time);
+    $stmt -> execute();
+
+    $gd_img = imagecreatefromjpeg('../img/promo/youhuijuan_empty.jpg');
+
+//imagealphablending($photo, true);
+//$fontsize = 14;
+//$font = 'VeraSe.ttf';
+//    $fontcolor = imagecolorallocate($photo, 255, 255, 255);
+//$angle = 0;
+//$x = 590;
+//$y = 30;
+    $text_to_draw = 'Coupon code: '.$new_coupon_code;
+//imagettftext($photo, $fontsize, $angle, $x, $y, $fontcolor, $font, $text);
+
+    $gd_img = draw_text_to_img($gd_img, 14, 'VeraSe.ttf', 255, 255, 255, 0, 590, 30, $text_to_draw);
+
+    $str_data="";
+    ob_start();
+    imagejpeg($gd_img);
+    $str_data=ob_get_contents();
+
+    ob_end_clean();
+
+//    $mail->addAttachment('../img/promo/banner_promo_page.jpg', 'new.jpg');    // Optional name
+    $mail->addStringAttachment($str_data,"coupon.jpg");
+    $mail->addStringEmbeddedImage($str_data,"cid_of_the_photo");
+
+    $img = "<img src=\"cid:cid_of_the_photo\">";
+    $emailHTML .= "</table>{$img}</body></html>";
+
+
+    //Content
+    $mail->isHTML(true);                                  // Set email format to HTML
+    $mail->Subject = $email_subject;
+    $mail->Body    = $emailHTML;
+    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+
+    $mail->send();
+    $result['message'] = "Thank you for contacting AGT Electric Cars, your email was sent successfully.";
+    $result['type'] = "success";
+} catch (Exception $e) {
+    $result['message'] = "We're sorry. Your request cannot be completed at the moment, please try again later.{$mail->ErrorInfo}";
+    $result['type'] = "error";
+//    echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
+}
+
+echo json_encode($result);
+
+// Close the statement and connection for security purpose
+$stmt -> close();
+$conn -> close();
+
+//zz some assets:
+//<!--I wish to receive AGT news, announcements and updates.-->
+//<!--(AGT always treats your personal info with ultimate care and will never sell them to other companies)-->
+
 

@@ -46,5 +46,32 @@ function display_weight($weight){
 	
 }
 
+function generate_unique_coupon_code($conn){
+    $isUnique = false;
+    $new_coupon_code="";
+    while(!$isUnique){
+        $new_coupon_code = mt_rand(100000,999999);
+        $query = "SELECT * FROM coupon WHERE coupon_code='".$new_coupon_code."';";
+
+        $result_set = mysqli_query($conn,$query) or die(mysql_error());
+
+        $result_array = $result_set -> fetch_assoc();
+
+        if(count($result_array)==0){
+            $isUnique = true;
+        }
+    }
+
+    return $new_coupon_code;
+}
+
+function draw_text_to_img($gd_img, $font_size, $font_file, $fontcolor_r, $fontcolor_g, $fontcolor_b, $angle, $x, $y, $text) {
+    $gd_img1 = $gd_img;
+    $fontcolor = imagecolorallocate($gd_img1, $fontcolor_r, $fontcolor_g, $fontcolor_b);
+    imagettftext($gd_img1, $font_size, $angle, $x, $y, $fontcolor, $font_file, $text);
+    return $gd_img1;
+}
+
+
 
 ?>

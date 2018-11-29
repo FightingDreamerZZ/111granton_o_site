@@ -137,47 +137,12 @@
 <!--        </div>-->
 
         <!--zz 1-->
-<!--        <div class="row" style="/*width: 70%*/">-->
-<!--            -->
-<!--            <div class="col-sm-3">-->
-<!--                <img src="img/promo/zephyr_led_light.png" class="img-responsive img-center" style="margin-top: 30px"/>-->
-<!--            </div>-->
-<!--            <div class="col-sm-2">-->
-<!--                <h4 style="border-bottom:1px solid #4e7fb9">LED Lights</h4>-->
-<!--                <p>-->
-<!--                    All <a href="zephyr.php" style="text-decoration: underline;color:#000000">Zephyr</a> models are equipped with LED-->
-<!--                    energy efficient headlights. The LED lights emit-->
-<!--                    brighter light and last up to 3 times longer than-->
-<!--                    the average conventional headlights.-->
-<!--                </p>-->
-<!--            </div>-->
-<!--            <div class="col-sm-1"></div>-->
-<!---->
-<!--            <div class="col-sm-3">-->
-<!--                <img src="img/promo/zephyr_seats.png" class="img-responsive img-center" style="margin-top: 30px" />-->
-<!--            </div>-->
-<!--            <div class="col-sm-2">-->
-<!--                <h4 style="border-bottom:1px solid #4e7fb9">Versatile</h4>-->
-<!--                <p>-->
-<!--                    Enjoy your new ride with family and friends. The-->
-<!--                    Zephyr models are highly versatile when it-->
-<!--                    comes to capacity and can seat anywhere-->
-<!--                    between 2 to 6 individuals.-->
-<!--                </p>-->
-<!--            </div>-->
-<!--            <div class="col-sm-1"></div>-->
-<!--        </div>-->
-        <!--zz 1-->
-
-        <!--zz 2-->
         <div class="row" style="/*width: 70%*/">
-            <div class="col-sm-11">
-                <img src="img/promo/combined.png" class="img-responsive img-center" style="margin-top: 0px"/>
+
+            <div class="col-sm-3">
+                <img src="img/promo/zephyr_led_light.png" class="img-responsive img-center" style="margin-top: 30px"/>
             </div>
-        </div>
-        <div class="row" style="/*width: 70%*/">
-
-            <div class="col-sm-5">
+            <div class="col-sm-2">
                 <h4 style="border-bottom:1px solid #4e7fb9">LED Lights</h4>
                 <p>
                     All <a href="zephyr.php" style="text-decoration: underline;color:#000000">Zephyr</a> models are equipped with LED
@@ -188,7 +153,10 @@
             </div>
             <div class="col-sm-1"></div>
 
-            <div class="col-sm-5" style="margin-left: -20px">
+            <div class="col-sm-3">
+                <img src="img/promo/zephyr_seats.png" class="img-responsive img-center" style="margin-top: 30px" />
+            </div>
+            <div class="col-sm-2">
                 <h4 style="border-bottom:1px solid #4e7fb9">Versatile</h4>
                 <p>
                     Enjoy your new ride with family and friends. The
@@ -199,6 +167,38 @@
             </div>
             <div class="col-sm-1"></div>
         </div>
+        <!--zz 1-->
+
+        <!--zz 2-->
+<!--        <div class="row" style="/*width: 70%*/">-->
+<!--            <div class="col-sm-11">-->
+<!--                <img src="img/promo/combined.png" class="img-responsive img-center" style="margin-top: 0px"/>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row" style="/*width: 70%*/">-->
+<!---->
+<!--            <div class="col-sm-5">-->
+<!--                <h4 style="border-bottom:1px solid #4e7fb9">LED Lights</h4>-->
+<!--                <p>-->
+<!--                    All <a href="zephyr.php" style="text-decoration: underline;color:#000000">Zephyr</a> models are equipped with LED-->
+<!--                    energy efficient headlights. The LED lights emit-->
+<!--                    brighter light and last up to 3 times longer than-->
+<!--                    the average conventional headlights.-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            <div class="col-sm-1"></div>-->
+<!---->
+<!--            <div class="col-sm-5" style="margin-left: -20px">-->
+<!--                <h4 style="border-bottom:1px solid #4e7fb9">Versatile</h4>-->
+<!--                <p>-->
+<!--                    Enjoy your new ride with family and friends. The-->
+<!--                    Zephyr models are highly versatile when it-->
+<!--                    comes to capacity and can seat anywhere-->
+<!--                    between 2 to 6 individuals.-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            <div class="col-sm-1"></div>-->
+<!--        </div>-->
         <!--zz 2-->
 
 
@@ -208,90 +208,57 @@
         <span style="position: relative;float:right"><img src="img/promo/coupon_icon.png" width="120px" /></span>
 
         <h3>Get the coupon</h3>
-<!--        <p>Feel free to drop us a line; whether it's a simple question or if you're thinking about becoming one our associated dealers. AGT Electric Cars will answer all your questions as quickly as possible.</p>-->
         <p>
             Please enter a valid E-mail so that we can send the uniquely generated coupon to you.
         </p>
-        <form role="form" id="contact-form" data-toggle="validator">
+        <form role="form" id="form_getting_coupon" data-toggle="validator" method="post">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="form-group">
-                        <label for="email">Email <span style="color: red">*</span></label>
-                        <input type="email" name="email" id="email" class="form-control" required />
+                        <label for="new_email">Email <span style="color: red">*</span></label>
+                        <input type="email" name="new_email" id="new_email" class="form-control" required />
                     </div>
                     <div class="consent-text">
-                        <p><input type="checkbox" name="mail-list" id="mail-list">
-                            <!--I wish to receive AGT news, announcements and updates.-->
+                        <p><input type="checkbox" name="email_consent" id="email_consent">
                             Yes! I would like to receive updates about promotions, special offers, new products & services, news & events from AGT.
-                            <!--(AGT always treats your personal info with ultimate care and will never sell them to other companies)-->
                         </p>
                     </div>
                 </div>
-
-<!--                zz-->
-<!--                <div class="col-sm-6">-->
-<!--                    <div class="form-group">-->
-<!--                        <label for="fname">First Name <span></span></label>-->
-<!--                        <input type="text" name="fname" id="fname" class="form-control" required />-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-sm-6">-->
-<!--                    <div class="form-group">-->
-<!--                        <label for="lname">Last Name <span></span></label>-->
-<!--                        <input type="text" name="lname" id="lname" class="form-control" required />-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-sm-6">-->
-<!--                    <div class="form-group">-->
-<!--                        <label for="company">Company Name</label>-->
-<!--                        <input type="text" name="company" id="company" class="form-control" />-->
-<!--                    </div>-->
-<!--                </div>-->
-<!---->
-<!--                <div class="col-sm-6">-->
-<!--                    <div class="form-group">-->
-<!--                        <label for="phone">Phone Number</label>-->
-<!--                        <input type="text" name="phone" id="phone" class="form-control" />-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                zz-->
-
-<!--                <div class="col-sm-12">-->
-<!--                    <div class="form-group">-->
-<!--                        <label for="department">Which Department Do You Wish to Contact? <span>*</span></label>-->
-<!--                        <select name="department" id="department" class="form-control" required>-->
-<!--                            <option value=''>Please select a department</option>-->
-<!--                            <option value="general">General Enquiries</option>-->
-<!--                            <option value="sales">Sales</option>-->
-<!--                            <option value="parts-service">Parts & Service</option>-->
-<!--                            <option value="media">Media</option>-->
-<!--                            <option value="partner">Become a Dealer</option>-->
-<!--                        </select>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--                <div class="col-sm-12">-->
-<!--                    <div class="form-group">-->
-<!--                        <label for="message">Your Message <span>*</span></label>-->
-<!--                        <textarea name="message" id="message" class="form-control" rows="10" required></textarea>-->
-<!--                    </div>-->
-<!--                </div>-->
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <input type="submit" class="form-control btn btn-primary btn-block margin-top-10" value="Send Me the Coupon" />
                 </div>
-
-<!--                <div class="col-sm-12">-->
-<!--                    <div id="feedback"></div>-->
-<!--                </div>-->
             </div>
 <!--            <p>-->
 <!--                <input type="checkbox" name="mail-list" id="mail-list" checked>-->
 <!--                I have read and agree on the <a href="#">Terms and Conditions</a>.-->
 <!--            </p>-->
-
+            <div class="row">
+                <div class="col-sm-12" style="padding-top: 5px">
+                    <div id="waiting_animation">
+                        Processing... <img src="css/gfx/ajax-loader.gif">
+                        <br/>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <br/>
+                    <div id="feedback"></div>
+                </div>
+            </div>
         </form>
-
+        <style>
+            #waiting_animation {
+                display: none;
+                color: #006400;
+            }
+            #feedback {
+                color: #006400;
+            }
+        </style>
+        <br/>
     </div>
 </section>
 <br />
@@ -308,6 +275,151 @@
 <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
 <?php include("include/inc.javascript.php"); ?>
+
+<!-- Bootstrap Validator -->
+<script src="js/validator.js"></script>
+
+
+
+<script>
+    $(document).ready(function () {
+            $(document).ajaxStart(function () {
+                    $("#waiting_animation").show();
+                }
+            );
+            $(document).ajaxStop(function () {
+                    $("#waiting_animation").hide();
+                }
+            );
+        }
+    );
+
+    function final_submit(){
+        //ajax for submit and getting coupon finally
+        $.ajax({
+            url: "system/ajax-promotion.php",
+            data: $("#form_getting_coupon").serialize(),
+            dataType: "json",
+            type: "post",
+            success: function(data){
+
+                console.log(data);
+
+                switch(data.type){
+                    case "error":
+                        $("#form_getting_coupon #feedback").html("<div class='error'>" + data.message + "</div>").fadeIn("fast");
+                        break;
+
+                    case "success":
+                        $("#form_getting_coupon #feedback").html("<div class='success'>" + data.message + "</div>").fadeIn("fast");
+
+                        $("#form_getting_coupon input[type=submit]").prop("disabled",true);
+                        break;
+                }
+            },
+            error: function(data){
+                console.log(data);
+                $("#form_getting_coupon #feedback").html(data.toString() +  "<div class='error'>An error has occured, please try again.</div>").fadeIn("fast");
+
+                setTimeout(function(){
+                    $("#form_getting_coupon #feedback").fadeOut("slow",function(){
+                        $(this).html("");
+                    });
+                }, 10000);
+            }
+        });
+
+    }
+
+    $('#form_getting_coupon').validator().on('submit', function (e) {
+        if (e.isDefaultPrevented()) {
+            console.log("Form is invalid");
+        } else {
+            let a = $("#form_getting_coupon").serialize().split("=");
+            let b = a[1].replace("%40","@");
+            <?PHP
+
+            ?>
+            //ajax for existing-email
+            $.ajax({
+                url: "system/ajax-promotion.php",
+                data: $("#form_getting_coupon").serialize()+"&check_existing_email=1",
+                dataType: "json",
+                type: "post",
+                success: function(data){
+
+                    console.log(data);
+
+                    switch(data.type){
+                        case "existing_email_valid":
+                            if(confirm("We have found that we already sent a coupon to this email address... Do you wish to get that coupon again?")){
+                                final_submit();
+                                break;
+                            }
+                            else
+                                window.location.href = "promotion.php";
+                            break;
+                        case "existing_email_not_valid":
+                            alert("Sorry, the coupon associated with this email has been redeemed already... Please contact us to see if there is other promotions on-going.");
+                            window.location.href = "contact-us.php";
+                            break;
+                        case "no_existing_email":
+                            final_submit();
+                            break;
+                    }
+                },
+                error: function(data){
+                    console.log(data);
+                    $("#form_getting_coupon #feedback").html(data.toString() +  "<div class='error'>An error has occured, please try again.</div>").fadeIn("fast");
+
+                    setTimeout(function(){
+                        $("#form_getting_coupon #feedback").fadeOut("slow",function(){
+                            $(this).html("");
+                        });
+                    }, 10000);
+                }
+            });
+
+
+            // //ajax for submit and getting coupon finally
+            // $.ajax({
+            //     url: "system/ajax-promotion.php",
+            //     data: $("#form_getting_coupon").serialize(),
+            //     dataType: "json",
+            //     type: "post",
+            //     success: function(data){
+            //
+            //         console.log(data);
+            //
+            //         switch(data.type){
+            //             case "error":
+            //                 $("#form_getting_coupon #feedback").html("<div class='error'>" + data.message + "</div>").fadeIn("fast");
+            //                 break;
+            //
+            //             case "success":
+            //                 $("#form_getting_coupon #feedback").html("<div class='success'>" + data.message + "</div>").fadeIn("fast");
+            //
+            //                 $("#form_getting_coupon input[type=submit]").prop("disabled",true);
+            //                 break;
+            //         }
+            //     },
+            //     error: function(data){
+            //         console.log(data);
+            //         $("#form_getting_coupon #feedback").html(data.toString() +  "<div class='error'>An error has occured, please try again.</div>").fadeIn("fast");
+            //
+            //         setTimeout(function(){
+            //             $("#form_getting_coupon #feedback").fadeOut("slow",function(){
+            //                 $(this).html("");
+            //             });
+            //         }, 10000);
+            //     }
+            // });
+
+        }
+        return false;
+    });
+
+</script>
 
 
 </body>

@@ -3,35 +3,52 @@
  * Created by PhpStorm.
  * Date: 2018-11-27
  * Time: 12:00 PM
- *
+ * coupon_promo_backend.php
  */
+
+//require "database1.php";
+require "Database.php";
 
 	session_start();
 
 	if(!isset($_SESSION["username"])){
+        echo("<script>window.alert('You must login to the backend first.');</script>");
 		header("Location: /login/");
 		exit();
 	}
 
-	// Open connection to database
-	$servername = "localhost";
-	$username = "root";
-	$password = "agtEcars123";
-	$dbname = "agtecar1_system";
+	$db = new Database();
+	$conn = $db->get_db_connection();
 
-	// Create connection
-	$conn = new mysqli($servername,$username,$password,$dbname);
-	// Check connection
-	if($conn -> connect_error){
-		$result['message'] = "There was an error while submitting your message, please try again soon. If this proble persists, please contact us via 1-905-597-6227.";
-		$result['type'] = "error";
+	if(isset($_POST['new_status'])){
+        $query1 = ' UPDATE coupon SET status="'.$_POST['new_status'].'" WHERE coupon_code="'.$_POST['coupon_code'].'"';
 
-		echo json_encode($result);
-		exit();
-	}
+        if (mysqli_query($conn, $query1)) {
+            echo "<script>alert('The status of this coupon has successfully updated to:  ".$_POST['new_status']." !');</script>" ;
+        } else {
+            echo "<script>console.log('Error updating record: ".mysqli_error($conn)."');</script>" ;
+        }
+
+    }elseif(isset($_POST['new_type'])){
+        $query1 = ' UPDATE coupon SET `type`="'.$_POST['new_type'].'" WHERE coupon_code="'.$_POST['coupon_code'].'"';
+
+        if (mysqli_query($conn, $query1)) {
+            echo "<script>alert('The type of this coupon has successfully updated to:  ".$_POST['new_type']." !');</script>" ;
+        } else {
+            echo "<script>console.log('Error updating record: ".mysqli_error($conn)."');</script>" ;
+        }
+    }
+
+    if(isset($_GET['txt_coupon_code'])&&(($_GET['txt_coupon_code'])!="")){
+        $query = "SELECT * FROM coupon WHERE coupon_code='".$_GET['txt_coupon_code']."';";
+    }
+    else {
+        $query = "SELECT * FROM coupon ORDER BY time_generated DESC;";
+    }
+
 
 	// First we will check the user name
-	$query = "SELECT * FROM coupon ORDER BY time_generated DESC;";
+//	$query = "SELECT * FROM coupon ORDER BY time_generated DESC;";
 	$result_set = mysqli_query($conn,$query) or die(mysql_error());
 
 	$coupons = array();
@@ -40,9 +57,9 @@
 	}
 
 
+    $db->close_db_connection();
 
 ?>
-
 
 <!DOCTYPE HTML>
 
@@ -67,6 +84,58 @@
 </head>
 <body class="fadein subpage">
 
+<script>
+
+    function edit_status(coupon_code,status) {
+        let xmlhttp;
+        let postdata = "coupon_code="+coupon_code+"&status="+status;
+        if (window.XMLHttpRequest)
+        {// code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp=new XMLHttpRequest();
+        }
+        else
+        {// code for IE6, IE5
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange=function()
+        {
+            if (xmlhttp.readyState==4 && xmlhttp.status==200)
+            {
+                document.getElementById("status_"+coupon_code).innerHTML=xmlhttp.responseText;
+            }
+        }
+        xmlhttp.open("POST","ajax-coupon_promo_backend.php?",true);
+        xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        xmlhttp.setRequestHeader("Content-length", postdata.length);
+        xmlhttp.send(postdata);
+    }
+
+    function edit_type(coupon_code,type){
+        let xmlhttp;
+        let postdata = "coupon_code="+coupon_code+"&type="+type;
+        if (window.XMLHttpRequest)
+        {// code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp=new XMLHttpRequest();
+        }
+        else
+        {// code for IE6, IE5
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange=function()
+        {
+            if (xmlhttp.readyState==4 && xmlhttp.status==200)
+            {
+                document.getElementById("type_"+coupon_code).innerHTML=xmlhttp.responseText;
+            }
+        }
+        xmlhttp.open("POST","ajax-coupon_promo_backend.php?",true);
+        xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+        xmlhttp.setRequestHeader("Content-length", postdata.length);
+        xmlhttp.send(postdata);
+    }
+
+</script>
+
 	<header>
 		<div class="container">
 			<div class="row">
@@ -89,6 +158,23 @@
 					</div>
 				</div>
 			</div>
+
+            <form name="form_search" method="get" action="" >
+                <div class="row form-group">
+                    <div class="col-sm-1">
+                        <h4>Search:</h4>
+                    </div>
+                    <div class="col-sm-9">
+                        <input type="text" id="txt_coupon_code" name="txt_coupon_code" class="form-control" value="<?php /*echo $temp_key;*/ ?>" autocomplete="off" onkeyup=""
+                            placeholder="Enter a coupon code to see if it exists..."
+                        />
+                    </div>
+                    <div class="col-sm-2">
+                        <input type="submit" class="form-control" value="Search"/>
+                    </div>
+                </div>
+            </form>
+
 			<hr />
 			<div class="row">
 				<div class="col-lg-12">
@@ -124,8 +210,14 @@
 									<tr>
 										<td>{$coupon_code}</td>
 										<td>{$email}</td>
-										<td>{$status}</td>
-										<td>{$type}</td>
+										<td id="status_{$coupon_code}"
+                                                ondblclick="edit_status('{$coupon_code}','{$status}')"
+                                                <!--onblur="changed()-->">
+                                            {$status}
+                                        </td>
+										<td id="type_{$coupon_code}" ondblclick="edit_type('{$coupon_code}','{$type}')">
+                                            {$type}
+                                        </td>
 										<td>{$time_generated}</td>
 									</tr>
 TEMP;
@@ -135,8 +227,12 @@ TEMP;
 
 						</tbody>
 					</table>
-				</div>
-			</div>
+                    <h4 id="lbl_msg" style="color: white;<?php echo (count($coupons)!=0)?'display:none':''?>">Zero result returned...</h4>
+                    <p>
+                        Note: Double click on cells in "Status" column or "Type" column to activate editing.
+                    </p>
+                </div>
+            </div>
 		</div>
 	</section>
 

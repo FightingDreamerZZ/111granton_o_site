@@ -84,6 +84,16 @@
 				</div>
 			</div>
 			<hr />
+
+            <form action="../system/coupon_promo_backend.php">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <input type="submit" class="form-control btn btn-primary btn-block margin-top-10" value="Go to coupon management panel    >>" />
+                    </div>
+                </div>
+            </form>
+
+            <hr />
 			<div class="row">
 				<div class="col-lg-12">
 					<table class="table table-bordered table-striped" id="client-table">

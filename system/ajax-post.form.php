@@ -8,6 +8,8 @@ require '../lib/PHPMailer-master/src/Exception.php';
 require '../lib/PHPMailer-master/src/PHPMailer.php';
 require '../lib/PHPMailer-master/src/SMTP.php';
 
+require 'functions.php';
+
 /* reCaptcha TEST */
 //$captcha;
 //
@@ -61,8 +63,7 @@ if(isset($_POST['mail-list'])){
 switch($department){
     case "general":
         $destination_department = "General Inquiry";
-//        $destination_email = "info@agtecars.com";
-        $destination_email = "jasonzhang5195@gmail.com";
+        $destination_email = "info@agtecars.com";
         break;
     case "sales":
         $destination_department = "Sales Department";
@@ -89,6 +90,7 @@ switch($department){
 
 
 // Insert this into the mail-list database (table:client)
+//zz temp
 $servername = "localhost";
 $username = "root";
 $password = "agtEcars123";
@@ -131,13 +133,7 @@ $emailHTML .= $openRow . $openCell . "Customer Name" . $closeCell . $openCell . 
 $emailHTML .= $openRow . $openCell . "Customer Email Address" . $closeCell . $openCell . "{$email} ({$consent_text})" . $closeCell . $closeRow;
 $emailHTML .= $openRow . $openCell . "Customer Phone Number" . $closeCell . $openCell . $phone . $closeCell . $closeRow;
 $emailHTML .= $openRow . $openCell . "Customer Message" . $closeCell . $openCell . $message . $closeCell . $closeRow;
-//$emailHTML .= "</table></body></html>";
-
-//zz
-//$img = "<img src=\"http://qnimate.com/wp-content/uploads/2014/03/images2.jpg\">";
-
-//zz more..
-//$emailHTML .= "</table>{$img}</body></html>";
+$emailHTML .= "</table></body></html>";
 
 // Create Email Parameters
 $email_from_name = $fname . " " . $lname;
@@ -155,8 +151,9 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 // Additional headers
 //	$email_BCC = "chlee1986@gmail.com";
 //$email_BCC = "info@agtecars.com";
-//$email_CC = "info@agtecars.com";
-$email_CC = "jason.zhang@agtecars.com";
+$email_CC = "info@agtecars.com";
+//$email_CC = "jason.zhang@agtecars.com";
+
 //	$headers .= 'To: '.$email_to_name.' <'.$email_to.'>' . "\r\n";
 $headers .= 'CC: '.$email_CC."\r\n";
 $headers .= 'From: '.$email_from_name.' <'.$email_from.'>' . "\r\n";
@@ -171,54 +168,17 @@ $headers .= 'From: '.$email_from_name.' <'.$email_from.'>' . "\r\n";
 //    $result['type'] = "error";
 //}
 
-$mail = new PHPMailer(true);                              // Passing `true` enables exceptions
+$mail = new PHPMailer(true);
 try {
-    //Server settings
-//    $mail->SMTPDebug = 2;                                 // Enable verbose debug output
-//    $mail->isSMTP();                                      // Set mailer to use SMTP
-//    $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
-//    $mail->SMTPAuth = true;                               // Enable SMTP authentication
-//    $mail->Username = 'smtp.jasonzhang5195@gmail.com';                 // SMTP username
-//    $mail->Password = 'xxxxxx33';                           // SMTP password
-////    $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-//    $mail->Port = 587;                                    // TCP port to connect to
-
-//    $mail->smtpConnect(
-//        array(
-//            "ssl" => array(
-//                "verify_peer" => false,
-//                "verify_peer_name" => false,
-//                "allow_self_signed" => true
-//            )
-//        )
-//    );
-
     //Recipients
     $mail->setFrom($email_from, $email_from_name);
     $mail->addAddress($email_to, $email_to_name);     // Add a recipient
-//    $mail->addAddress('ellen@example.com');               // Name is optional
 //    $mail->addReplyTo('info@example.com', 'Information');
     $mail->addCC($email_CC);
 //    $mail->addBCC('bcc@example.com');
 
     //Attachments
-//    $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-
-    $photo = imagecreatefromjpeg('../img/promo/promo201808.jpg');
-    $str_data="";
-    ob_start();
-    imagejpeg($photo);
-    $str_data=ob_get_contents();
-
-    ob_end_clean();
-
-//    $mail->addAttachment('../img/promo/banner_promo_page.jpg', 'new.jpg');    // Optional name
-    $mail->addStringAttachment($str_data,"hihi.jpg");
-    $mail->addStringEmbeddedImage($str_data,"cid_of_the_photo");
-
-    $img = "<img src=\"cid:cid_of_the_photo\">";
-    $emailHTML .= "</table>{$img}</body></html>";
-
+//    $mail->addAttachment('/var/tmp/file.tar.gz');
 
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
