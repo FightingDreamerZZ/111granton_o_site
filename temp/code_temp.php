@@ -199,4 +199,70 @@ $conn -> close();
 //<!--I wish to receive AGT news, announcements and updates.-->
 //<!--(AGT always treats your personal info with ultimate care and will never sell them to other companies)-->
 
+    ?>
+<!--zz temp for hover-to-darken effect by view -->
+    <div class="row" style="margin-top: 0px">
+        <div class="col-lg-2"></div>
+        <!--                <div class="col-lg-10">-->
+        <!--                    <h4 style="color:#fff;text-transform: none;">-->
+        <!--<!--                        Download a money-off coupon for great sale offer whether you are buying a new Zephyr or trade-in your old golf cart for a new one.-->
+        <!--<!--                        Just redeem it at any of our dealer and saves instantly.-->
+        <!--                        Download a money-off coupon for a great sale offer whether you are buying a new Zephyr-->
+        <!--                        or trading-in your old golf cart for a new one. Redeem the coupon at any of the participating-->
+        <!--                        Ontario dealerships and save instantly.-->
+        <!--                    </h4>-->
+        <!--                    <br/>-->
+        <!--                    <p style="color:#fff;">*Promotion applies to new and pre-ordered cars only.</p>-->
+        <!--                    <br/>-->
+        <!--                </div>-->
+        <div class="col-lg-8">
+            <div class="darken_img_on_hover">
+                <div class="darken_img_on_hover_overlay"></div>
+                <img src="img/promo/coupon_info_home_page.jpg"  style=""/>
 
+                <div class="darken_img_on_hover_btn">
+                    <a href="promotion.php">Click here to start...</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-2"></div>
+    </div>
+
+    <style>
+        .darken_img_on_hover {
+            /*background: url("../img/promo/coupon_info_home_page.png");*/
+            /*position: relative;*/
+            /*height: 300px;*/
+            /*background-size: cover;*/
+            /*padding-left: 5px;*/
+            /*text-align: center;*/
+        }
+        .darken_img_on_hover:hover > .darken_img_on_hover_overlay {
+            width: 97%;
+            height: 100%;
+            position: absolute;
+            background-color: #000;
+            opacity: 0.7;
+            -moz-transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            transition: all 0.5s;
+        }
+        .darken_img_on_hover .darken_img_on_hover_btn {
+            position: absolute;
+            left:15%;
+            top:35%;
+            display: none;
+
+        }
+        .darken_img_on_hover a {
+            color: #fff;
+            font-size: 36px;
+            text-shadow: 2px 2px 2px #000;
+            text-decoration: underline;
+            padding: 50px;
+        }
+        .darken_img_on_hover:hover .darken_img_on_hover_btn {
+            display: block;
+        }
+    </style>

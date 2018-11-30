@@ -31,7 +31,7 @@
     <div class="container-fluid" id="container_banner_promo_page">
         <div class="row">
             <h1 class="sr-only">Promotion</h1>
-            <img src="img/promo/banner_promo_page.jpg" class="img-responsive" id="img_banner_promo_page" style=""/>
+            <img src="img/promo/banner_promo_page.png" class="img-responsive" id="img_banner_promo_page" style=""/>
         </div>
 <!--        <div id="slogan_promotion_banner">-->
 <!--            <h1>-->
@@ -211,6 +211,7 @@
         <p>
             Please enter a valid E-mail so that we can send the uniquely generated coupon to you.
         </p>
+        <div id="anchor_get_coupon_section"></div>
         <form role="form" id="form_getting_coupon" data-toggle="validator" method="post">
             <div class="row">
                 <div class="col-sm-12">
@@ -250,6 +251,10 @@
             </div>
         </form>
         <style>
+            #anchor_get_coupon_section {
+                margin-top: -150px;
+                position: absolute;
+            }
             #waiting_animation {
                 display: none;
                 color: #006400;

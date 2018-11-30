@@ -80,8 +80,8 @@
 
             <div class="row" style="">
 <!--                <div class="col-lg-2"></div>-->
-                <div class="col-lg-7 col-centered">
-                    <h1 style="color:white;text-transform: none;font-family: 'Times New Roman'">Get a Coupon Today for Exclusive Discount!</h1>
+                <div class="col-lg-4 col-centered" style="text-align: center">
+                    <h1 style="color:white;text-transform: none;font-family: 'Times New Roman'">Limited Time Offer!</h1>
                     <br/>
                 </div>
 <!--                <div class="col-lg-1"></div>-->
@@ -106,7 +106,7 @@
 <!--            </div>-->
 
             <div class="row" style="margin-top: 0px">
-                <div class="col-lg-3"></div>
+                <div class="col-lg-2"></div>
 <!--                <div class="col-lg-10">-->
 <!--                    <h4 style="color:#fff;text-transform: none;">-->
 <!--<!--                        Download a money-off coupon for great sale offer whether you are buying a new Zephyr or trade-in your old golf cart for a new one.-->
@@ -119,24 +119,24 @@
 <!--                    <p style="color:#fff;">*Promotion applies to new and pre-ordered cars only.</p>-->
 <!--                    <br/>-->
 <!--                </div>-->
-                <div class="col-lg-6">
+                <div class="col-lg-8">
                     <div class="darken_img_on_hover">
-                        <div class="darken_img_on_hover_overlay"></div>
-                        <img src="img/promo/coupon_info_home_page.png"  style=""/>
-
+<!--                        <div class="darken_img_on_hover_overlay"></div>-->
+                        <img src="img/promo/coupon_info_home_page.jpg"  id="dioh_original"/>
+                        <img src="img/promo/coupon_info_home_page_darken70.jpg" id="dioh_dark70"/>
                         <div class="darken_img_on_hover_btn">
-                            <a href="promotion.php">Click here to start...</a>
+                            <a href="promotion.php"></a>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3"></div>
+                <div class="col-lg-2"></div>
             </div>
 
             <div class="row">
                 <br />
                 <div class="col-lg-2 col-centered" style="/*margin-top: -10px*/">
-                    <a href="promotion.php" title="Find a dealer to get the promo today!" id="promo_btn_dealer" class="">Start Now</a>
+<!--                    <a href="promotion.php" title="Find a dealer to get the promo today!" id="promo_btn_dealer" class="">Start Now</a>-->
                     <br/><br/>
                 </div>
             </div>

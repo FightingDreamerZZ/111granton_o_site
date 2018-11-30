@@ -78,8 +78,12 @@ $email_text_content = "Thank you for downloading coupon. Just print out or show 
 $emailHTML .= "<html><body>".$email_text_content;
 
 // Create Email Parameters
-$email_from_name = "no-reply";
-$email_from = "smtp.jasonzhang5195@gmail.com";//zz temp
+//$email_from_name = "no-reply";
+$email_from_name = "AGT Electric Car";
+//$email_from = "smtp.jasonzhang5195@gmail.com";//zz temp
+//$email_from = "jason.zhang@agtecars.com";//zz temp
+$email_from = "no-reply@agtecars.com";//zz temp
+
 $email_subject = "Promotion Coupon From AGT Electric Car";
 
 $email_to_name 	= "";
@@ -92,7 +96,7 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 // Additional headers
 //$email_BCC = "info@agtecars.com";
 //$email_CC = "info@agtecars.com";
-$email_CC = "jason.zhang@agtecars.com";
+$email_CC = "jason.zhang@agtecars.com";//zz temp
 $headers .= 'CC: '.$email_CC."\r\n";
 $headers .= 'From: '.$email_from_name.' <'.$email_from.'>' . "\r\n";
 
@@ -110,6 +114,21 @@ $gd_img = draw_text_to_img($gd_img, 14, 'VeraSe.ttf', 255, 255, 255, 0, 590, 30,
 
 $mail = new PHPMailer(true);
 try {
+//    $mail->SMTPDebug = 2;                                 // Enable verbose debug output
+    $mail->isSMTP();                                      // Set mailer to use SMTP
+//    $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+//    $mail->Host = 'mail.agtecars.com';
+    $mail->Host = 'just36.justhost.com';
+    $mail->SMTPAuth = true;                               // Enable SMTP authentication
+//    $mail->Username = 'smtp.jasonzhang5195@gmail.com';                 // SMTP username
+//    $mail->Password = 'xxxxxx33';                           // SMTP password
+//    $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+//    $mail->Port = 587;
+    $mail->Username = 'no-reply@agtecars.com';
+    $mail->Password = '3Ed4c54!';
+    $mail->SMTPSecure = 'ssl';
+    $mail->Port=465;
+
     //Recipients
     $mail->setFrom($email_from, $email_from_name);
     $mail->addAddress($email_to, $email_to_name);
