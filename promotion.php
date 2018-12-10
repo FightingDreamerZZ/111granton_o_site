@@ -31,7 +31,7 @@
     <div class="container-fluid" id="container_banner_promo_page">
         <div class="row">
             <h1 class="sr-only">Promotion</h1>
-            <img src="img/promo/banner_promo_page.png" class="img-responsive" id="img_banner_promo_page" style=""/>
+            <img src="img/promo/banner_promo_page.jpg" class="img-responsive" id="img_banner_promo_page" style=""/>
         </div>
 <!--        <div id="slogan_promotion_banner">-->
 <!--            <h1>-->
@@ -76,21 +76,23 @@
         <br />
         <div class="row">
             <div class="col-sm-12">
-                <h3 class="">
+                <h2 class="">
 <!--                    Buy a new Zephyr with $200 discount, or trade-in an old one with $300 discount -->
-                    Buy a new Zephyr and receive a $200 discount, or trade-in an old cart and receive a $300 discount
-                </h3>
+<!--                    Buy a new Zephyr and receive a $200 discount, or trade-in an old cart and receive a $300 discount-->
+                    Our Special Offer to You
+                </h2>
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-12">
                 <p>
-                    Enter your email below to receive the coupon containing the abovementioned offers and an individual coupon number. The coupon will be displayed directly in the email as well as be available for download through attachments. Please note that offers cannot be combined and are available at select Ontario dealerships. To receive the offer, the coupon MUST be presented to the dealer. For Trade-in option, please contact the dealer in advance.
+<!--                    Enter your email below to receive the coupon containing the abovementioned offers and an individual coupon number. The coupon will be displayed directly in the email as well as be available for download through attachments. Please note that offers cannot be combined and are available at select Ontario dealerships. To receive the offer, the coupon MUST be presented to the dealer. For Trade-in option, please contact the dealer in advance.-->
+                    Buy a new Zephyr and receive a $200 discount or, trade-in an old cart and receive a $300 discount. Enter your email below to receive the coupon containing the offers and an individual coupon number. The coupon will be displayed directly in the email as well as be available for download through attachments. Please note that offers cannot be combined and are available at select Ontario dealerships. To receive the offer, the coupon MUST be presented to the dealer. For Trade-in option, please contact the dealer in advance.
                 </p>
                 <br />
                 <div style="font-size: 14px">
-                    *If you encounter any issues or have a question simply send us an email through the contact page.
+                    *Use coupon before April 1st, 2019. If you encounter any issues or have a question simply send us an email through the contact page.
                 </div>
 
 
@@ -117,7 +119,7 @@
         <hr />
         <div class="row" style="">
             <div class="col-lg-12" style="margin-bottom: 0px">
-                <h3>Why choose Zephyr?</h3>
+                <h2>Why choose Zephyr?</h2>
 
             </div>
         </div>
@@ -163,6 +165,36 @@
                     Zephyr models are highly versatile when it
                     comes to capacity and can seat anywhere
                     between 2 to 6 individuals.
+                </p>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+        <br/>
+
+        <div class="row" style="/*width: 70%*/">
+
+            <div class="col-sm-3">
+                <img src="img/promo/zephyr_warranty.jpg" class="img-responsive img-center" style="margin-top: 30px"/>
+            </div>
+            <div class="col-sm-2">
+                <h4 style="border-bottom:1px solid #4e7fb9">Warranty</h4>
+                <p>
+                    Don’t worry we have you covered!
+                    All AGT vehicles come with 2 years limited manufacturer warranty.
+
+                </p>
+            </div>
+            <div class="col-sm-1"></div>
+
+            <div class="col-sm-3">
+                <img src="img/promo/zephyr_range.png" class="img-responsive img-center" style="margin-top: 30px" />
+            </div>
+            <div class="col-sm-2">
+                <h4 style="border-bottom:1px solid #4e7fb9">Range</h4>
+                <p>
+                    At AGT we go beyond the average!
+                    All the Zephyr models are equipped with 8, 6v Trojan batteries.
+                    This feature provides the carts with a longer range.
                 </p>
             </div>
             <div class="col-sm-1"></div>
@@ -221,7 +253,8 @@
                     </div>
                     <div class="consent-text">
                         <p><input type="checkbox" name="email_consent" id="email_consent">
-                            Yes! I would like to receive updates about promotions, special offers, new products & services, news & events from AGT.
+<!--                            Yes! I would like to receive updates about promotions, special offers, new products & services, news & events from AGT.-->
+                            Yes! I agree to receive emails from AGT.
                         </p>
                     </div>
                 </div>
@@ -268,7 +301,6 @@
 </section>
 <br />
 
-
 <?php include("include/inc.footer.php"); ?>
 
 
@@ -281,12 +313,23 @@
 
 <?php include("include/inc.javascript.php"); ?>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
 <!-- Bootstrap Validator -->
 <script src="js/validator.js"></script>
 
 
 
 <script>
+
+    $(function() {
+        $('#testzz1').on('click', function() {
+            $('.imagepreview1').attr('src', "http://www.agtecars.com/img/agt_logo_white.jpg");
+            $('.imagepreview2').attr('src', "http://www.agtecars.com/img/slide-bus.png");
+            $('#imagemodal').modal('show');
+        });
+    });
+
     $(document).ready(function () {
             $(document).ajaxStart(function () {
                     $("#waiting_animation").show();
@@ -296,8 +339,14 @@
                     $("#waiting_animation").hide();
                 }
             );
+        if (window.location.hash) {
+            setTimeout(function () {
+                var hash = window.location.hash;
+                window.location.hash = "";
+                window.location.hash = hash;
+            }, 1);
         }
-    );
+    });
 
     function final_submit(){
         //ajax for submit and getting coupon finally

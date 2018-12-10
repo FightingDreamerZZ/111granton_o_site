@@ -186,7 +186,8 @@ require "Database.php";
 								<th>Status</th>
 								<th>Type</th>
 								<th>Time Generated</th>
-							</tr>
+                                <th>Email Consent</th>
+                            </tr>
 
 							<?php
 
@@ -197,12 +198,12 @@ require "Database.php";
 									$status = $coupon['status'];
 									$type = $coupon['type'];
 									$time_generated = $coupon['time_generated'];
-
-//									if($consent == true){
-//										$consent_display = "<span><i class=\"fa fa-check fa-fw\"></i></span>";
-//									} else {
-//										$consent_display = "<span><i class=\"fa fa-times fa-fw\"></i></span>";
-//									}
+                                    $consent = $coupon['email_consent'];
+									if($consent == true){
+										$consent_display = "<span><i class=\"fa fa-check fa-fw\"></i></span>";
+									} else {
+										$consent_display = "<span><i class=\"fa fa-times fa-fw\"></i></span>";
+									}
 
 
 
@@ -219,6 +220,7 @@ require "Database.php";
                                             {$type}
                                         </td>
 										<td>{$time_generated}</td>
+										<td>{$consent_display}</td>
 									</tr>
 TEMP;
 								}

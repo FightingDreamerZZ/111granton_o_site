@@ -25,7 +25,7 @@
 
 		$(document).on("load scroll", function(){
 
-			if($(window).scrollTop() === 0){
+			if($(window).   scrollTop() === 0){
 				$("header").addClass("top-of-page");
 			} else {
 				$("header").removeClass("top-of-page");

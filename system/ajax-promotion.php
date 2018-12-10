@@ -22,6 +22,13 @@ $conn = $db->get_db_connection();
 
 //zz get posted params
 $new_email = $_POST['new_email'];
+if(isset($_POST['email_consent'])){
+    $consent = 1;
+    $consent_text = "Subscribed";
+} else {
+    $consent = 0;
+    $consent_text = "Did Not Subscribe";
+}
 
 //zz handler for existing email.. check db for existing email..
 $query = "SELECT * FROM coupon WHERE `email`='".$new_email."';";
@@ -65,16 +72,11 @@ $openCell = "<td width='50%'>";
 $closeCell = "</td>";
 $emailHTML = "";
 
-if(isset($_POST['email_consent'])){
-    $consent = 1;
-    $consent_text = "Subscribed";
-} else {
-    $consent = 0;
-    $consent_text = "Did Not Subscribe";
-}
-
 // Create Email HTML
-$email_text_content = "Thank you for downloading coupon. Just print out or show the following image to the dealer and we are all good to go. (If no image shown here pls refer to the attachment)<br />";
+//$email_text_content = "Thank you for downloading coupon. Just print out or show the following image to the dealer and we are all good to go. (If no image shown here pls refer to the attachment)<br />";
+$email_text_content = "<p>Thank you for downloading the coupon.</p>
+<p>Print the coupon or show this email to our dealer, and you are good to go!</p>
+<p>(If image is not properly displayed, please refer to the attachment)</p>";
 $emailHTML .= "<html><body>".$email_text_content;
 
 // Create Email Parameters
@@ -147,7 +149,38 @@ try {
     $mail->addStringEmbeddedImage($str_data,"cid_of_the_photo");
 
     $img = "<img src=\"cid:cid_of_the_photo\">";
-    $emailHTML .= "{$img}</body></html>";
+    $emailHTML_footer = "
+    <p style=\"\" align=\"\">
+        <em>
+            <span style=\"font-size:12px;font-family:Helvetica,sans-serif;color:#656565\">
+            Copyright &copy; 2018 AGT, All rights reserved.
+            </span>
+        </em>
+
+    </p>
+    <span>
+
+        <span style=\"font-size:12px;font-family:Helvetica,sans-serif;color:#656565\">
+            <strong>AGT Electric Cars</strong><br/>
+                    Unit 301, 111 Granton Dr<br/>
+                    Richmond Hill, ON L4B1L5<br/>
+                    T: +1-905-597-6227<br/>
+        </span>
+    </span>
+
+    <span style=\"font-size:15px;font-family:Helvetica,sans-serif;color:#656565\">
+        <a href=\"http://www.agtecars.com\">
+            <span style=\"color:#656565\">
+                www.agtecars.com
+            </span>
+        </a>
+    </span>
+    <br />
+    <a href='http://www.agtecars.com'>
+    <img src='http://www.agtecars.com/img/agt_logo_white.jpg' width='140'/>
+    </a>
+    </body></html>";
+    $emailHTML .= $img.$emailHTML_footer;
 
     //Content
     $mail->isHTML(true);
@@ -162,8 +195,8 @@ try {
 
     //zz write to DB after success sending, do nothing for existing email
     if(!$is_existing_email){
-        $stmt = $conn -> prepare("INSERT INTO `coupon` (`coupon_code`, `email`, `status`, `type`, `time_generated`) VALUES (?,?,?,?,?)");
-        $stmt -> bind_param("issss",$new_coupon_code,$new_email,$new_status,$new_type,$current_time);
+        $stmt = $conn -> prepare("INSERT INTO `coupon` (`coupon_code`, `email`, `status`, `type`, `time_generated`, `email_consent`) VALUES (?,?,?,?,?,?)");
+        $stmt -> bind_param("issssi",$new_coupon_code,$new_email,$new_status,$new_type,$current_time,$consent);
         $stmt -> execute();
         // Close the statement and connection for security purpose
         $stmt -> close();
