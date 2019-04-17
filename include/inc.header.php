@@ -1,7 +1,6 @@
 <header class="top-of-page">
 	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container"
-            style="width:1240px"> <!--zz couponPromo-->
+		<div class="container" id="container_navbar">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
@@ -18,7 +17,7 @@
 						<a href="javascript:void(0);">Zephyr <span class="caret"></span></a>
 						<ul class="sub-menu">
 							<li class="hidden-xl hidden-lg hidden-md hidden-sm mobile-list overview">
-								<a href="zephyr.php" title="Zephyr Overview">Zephyr Series Overview</a>
+                                <a href="zephyr.php" title="Zephyr Overview"><strong>Zephyr Series Overview</strong></a>
 							</li>
 							<li class="hidden-xl hidden-lg hidden-md hidden-sm mobile-list">
 								<a href="golf-course/zephyr-2.php" title="Zephyr 2" class="clearfix">
@@ -57,12 +56,12 @@
 								</a>
 							</li>
 
-
-
 							<!-- Hide Large Image Menu -->
 							<li class="hidden-xs overview">
-								<a href="zephyr.php" title="Zephyr Overview" class="overview-link">Learn more about our <span>Zephyr</span> lineup</a>
-							</li>
+                                <div title="Learn more about our Zephyr lineup" class="overview-link">
+                                    <a href="zephyr.php" class="btn btn-default btn-lg btn-vehicleoverview">Zephyr Overview</a>
+                                </div>
+                            </li>
 							<li class="hidden-xs">
 								<span class="title">Zephyr 2</span>
 								<a href="golf-course/zephyr-2.php"><img src="img/sideview/zephyr-2.jpg"/></a>
@@ -320,7 +319,9 @@
 
 							<!-- Hide Large Image Menu -->
 							<li class="hidden-xs overview">
-								<a href="hobbit.php" title="Hobbit Overview" class="overview-link">Learn more about our <span>Hobbit</span> lineup</a>
+                                <div title="Learn more about our Hobbit lineup" class="overview-link">
+                                    <a href="hobbit.php" class="btn btn-default btn-lg btn-vehicleoverview">Hobbit Overview</a>
+                                </div>
 							</li>
 							<li class="hidden-xs">
 								<span class="title">Hobbit 2+2</span>
@@ -541,19 +542,19 @@
 								<a href="hobbit-g.php" title="Hobbit G Overview"><strong>Hobbit G Series Overview</strong></a>
 							</li>
 							<li class="hidden-xl hidden-lg hidden-md hidden-sm mobile-list">
-								<a href="golf-course/cricket-2.php" title="Hobbit 2G" class="clearfix">
+								<a href="golf-course/hobbit-2g.php" title="Hobbit 2G" class="clearfix">
 									<img src="img/sideview/cricket-2.jpg" al="Hobbit 2G" class="pull-left" />
 									<span class="pull-right">Hobbit 2G<i class="fa fa-chevron-right fa-fw"></i></span>
 								</a>
 							</li>
 							<li class="hidden-xl hidden-lg hidden-md hidden-sm mobile-list">
-								<a href="golf-course/cricket-4.php" title="Hobbit 4G" class="clearfix">
+								<a href="golf-course/hobbit-4g.php" title="Hobbit 4G" class="clearfix">
 									<img src="img/sideview/cricket-4.jpg" al="Hobbit 4G" class="pull-left" />
 									<span class="pull-right">Hobbit 4G<i class="fa fa-chevron-right fa-fw"></i></span>
 								</a>
 							</li>
 							<li class="hidden-xl hidden-lg hidden-md hidden-sm mobile-list">
-								<a href="golf-course/cricket-6.php" title="Hobbit 6G" class="clearfix">
+								<a href="golf-course/hobbit-6g.php" title="Hobbit 6G" class="clearfix">
 									<img src="img/sideview/cricket-6.jpg" al="Hobbit 6G" class="pull-left" />
 									<span class="pull-right">Hobbit 6G<i class="fa fa-chevron-right fa-fw"></i></span>
 								</a>
@@ -561,11 +562,13 @@
 
 							<!-- Hide Large Image Menu -->
 							<li class="hidden-xs overview">
-								<a href="hobbit-g.php" title="Cricket Overview" class="overview-link">Learn more about our <span>Hobbit G</span> lineup</a>
+                                <div title="Learn more about our Hobbit G lineup" class="overview-link">
+                                    <a href="hobbit-g.php" class="btn btn-default btn-lg btn-vehicleoverview">Hobbit G Overview</a>
+                                </div>
 							</li>
 							<li class="hidden-xs">
 								<span class="title">Hobbit 2G</span>
-								<a href="golf-course/cricket-2.php"><img src="img/sideview/cricket-2.jpg"/></a>
+								<a href="golf-course/hobbit-2g.php"><img src="img/sideview/cricket-2.jpg"/></a>
 								<div class="row preview">
 									<div class="col-sm-3 col-xs-6 spec">
 										<div class="text-center">
@@ -578,7 +581,7 @@
 										<div class="text-center">
 											<span><i class="fa fa-bolt"></i></span>
 											<span>Voltage</span>
-											<span>36V</span>
+											<span>48V</span>
 										</div>
 									</div>
 									<div class="col-sm-3 col-xs-6 spec">
@@ -596,11 +599,11 @@
 										</div>
 									</div>
 								</div>
-								<a href="golf-course/cricket-2.php" class="btn btn-default btn-block">Learn More</a>
+								<a href="golf-course/hobbit-2g.php" class="btn btn-default btn-block">Learn More</a>
 							</li>
 							<li class="hidden-xs">
 								<span class="title">Hobbit 4G</span>
-								<a href="golf-course/cricket-4.php"><img src="img/sideview/cricket-4.jpg"/></a>
+								<a href="golf-course/hobbit-4g.php"><img src="img/sideview/cricket-4.jpg"/></a>
 								<div class="row preview">
 									<div class="col-sm-3 col-xs-6 spec">
 										<div class="text-center">
@@ -631,11 +634,11 @@
 										</div>
 									</div>
 								</div>
-								<a href="golf-course/cricket-4.php" class="btn btn-default btn-block">Learn More</a>
+								<a href="golf-course/hobbit-4g.php" class="btn btn-default btn-block">Learn More</a>
 							</li>
 							<li class="hidden-xs">
 								<span class="title">Hobbit 6G</span>
-								<a href="golf-course/cricket-6.php"><img src="img/sideview/cricket-6.jpg"/></a>
+								<a href="golf-course/hobbit-6g.php"><img src="img/sideview/cricket-6.jpg"/></a>
 								<div class="row preview">
 									<div class="col-sm-3 col-xs-6 spec">
 										<div class="text-center">
@@ -666,7 +669,7 @@
 										</div>
 									</div>
 								</div>
-								<a href="golf-course/cricket-6.php" class="btn btn-default btn-block">Learn More</a>
+								<a href="golf-course/hobbit-6g.php" class="btn btn-default btn-block">Learn More</a>
 							</li>
 						</ul>
 					</li>
@@ -697,7 +700,9 @@
 
 							<!-- Hide Large Image Menu -->
 							<li class="hidden-xs overview">
-								<a href="lsv.php" title="LSV Overview" class="overview-link">Learn more about our <span>LSV</span> lineup</a>
+                                <div title="Learn more about our LSV lineup" class="overview-link">
+                                    <a href="lsv.php" class="btn btn-default btn-lg btn-vehicleoverview">LSV Overview</a>
+                                </div>
 							</li>
 							<li class="hidden-xs">
 								<span class="title">LSV 2</span>
@@ -839,7 +844,9 @@
 
 							<!-- Hide Large Image Menu -->
 							<li class="hidden-xs overview">
-								<a href="argo.php" title="Argo Overview" class="overview-link">Learn more about our <span>Argo</span> lineup</a>
+                                <div title="Learn more about our Argo lineup" class="overview-link">
+                                    <a href="argo.php" class="btn btn-default btn-lg btn-vehicleoverview">Argo Overview</a>
+                                </div>
 							</li>
 							<li class="hidden-xs">
 								<span class="title">Argo 8</span>
@@ -1030,9 +1037,11 @@
 							</li>
 
 							<!-- Hide Large Image Menu -->
-							<li class="overview-link-group hidden-xs overview">
-								Learn more about our <a href="commercial-off-road.php" title="Commercial Off-Road Overview">Off-Road</a> or <a href="commercial-industrial.php" title="Commercial Industrial Overview">Industrial</a> lineup
-							</li>
+                            <li class=" hidden-xs overview">
+                                <div class="overview-link">
+                                    Learn more about our <a href="commercial-off-road.php" title="Commercial Off-Road Overview" class="btn btn-default btn-lg btn-vehicleoverview">Off-Road</a> or <a href="commercial-industrial.php" title="Commercial Industrial Overview" class="btn btn-default btn-lg btn-vehicleoverview">Industrial</a> lineup
+                                </div>
+                            </li>
 							<li class="hidden-xs">
 								<span class="title">Nomad</span>
 								<a href="utility/nomad.php"><img src="img/sideview/nomad.jpg"/></a>
@@ -1251,14 +1260,11 @@
 					<li class="link">
 						<a href="contact-us.php">Contact Us</a>
 					</li>
-
-                    <!--zz couponPromo-->
                     <li class="link">
                         <a href="promotion.php">Promotion</a>
                     </li>
 
-				</ul>
-<!--                <a href="contact-us.php">haha</a>-->
+                </ul>
 			</div>
 		</div>
 	</nav>

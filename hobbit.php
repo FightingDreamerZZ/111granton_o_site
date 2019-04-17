@@ -71,7 +71,7 @@
 				<div class="col-sm-4">
 					<img src="img/features/hobbit-customization.png" class="img-responsive img-center" />
 					<h4>Our Roof to Tire <span>Customization</span></h4>
-					<p>Hobbit has one of the most options in terms of capacity and usability. 2, 4, 6 Seats? +2 more with Flat bed? Cargo box? Hobbit has you covered. Our Colour options for the car and roof makes YOU stand out from the club.</p>
+					<p>Hobbit is one of the most versatile vehicles in terms of capacity and usability. From 2 seaters to 8 seaters, dump box and cargo box. Hobbit has you covered. Our Colour options for the car and roof makes YOU stand out from the club.</p>
 				</div>
 				<div class="col-sm-4">
 					<img src="img/features/onboard-charger.png" class="img-responsive img-center" />

@@ -100,7 +100,7 @@
 							<div class="text-center">
 								<span><i class="fa fa-bolt"></i></span>
 								<span>Voltage</span>
-								<span>36V</span>
+								<span>48V</span>
 							</div>
 						</div>
 						<div class="col-xs-3">

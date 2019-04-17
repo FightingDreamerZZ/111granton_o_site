@@ -22,7 +22,7 @@
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 	<!-- Custom Stylesheet -->
-	<link href="../css/main.css" type="text/css" rel="stylesheet" />
+	<link href="css/main.css" type="text/css" rel="stylesheet" />
 </head>
 <body class="fadein product-details">
 
@@ -41,16 +41,16 @@
 				<div class="col-sm-7">
 					<div class="slideshow">
 						<div>
-							<img src="../img/slideshow/zephyr-2/slideshow-1.png" />
+							<img src="img/slideshow/zephyr-2/slideshow-1.png" />
 						</div>
 						<div>
-							<img src="../img/slideshow/zephyr-2/slideshow-2.png" />
+							<img src="img/slideshow/zephyr-2/slideshow-2.png" />
 						</div>
 						<div>
-							<img src="../img/slideshow/zephyr-2/slideshow-3.png" />
+							<img src="img/slideshow/zephyr-2/slideshow-3.png" />
 						</div>
 						<div>
-							<img src="../img/slideshow/zephyr-2/slideshow-4.png" />
+							<img src="img/slideshow/zephyr-2/slideshow-4.png" />
 						</div>
 					</div>
 				</div>
@@ -64,25 +64,25 @@
 				<div class="col-lg-8 col-md-7 col-sm-6">
 					<div class="main-image-carousel">
 						<div>
-							<img src="../img/product/zephyr/front-white.jpg" />
+							<img src="img/product/zephyr/front-white.jpg" />
 						</div>
 						<div>
-							<img src="../img/product/zephyr/front-red.jpg" />
+							<img src="img/product/zephyr/front-red.jpg" />
 						</div>
 						<div>
-							<img src="../img/product/zephyr/front-blue.jpg" />
+							<img src="img/product/zephyr/front-blue.jpg" />
 						</div>
 						<div>
-							<img src="../img/product/zephyr/front-green.jpg" />
+							<img src="img/product/zephyr/front-green.jpg" />
 						</div>
 						<div>
-							<img src="../img/product/zephyr/front-silver.jpg" />
+							<img src="img/product/zephyr/front-silver.jpg" />
 						</div>
 						<div>
-							<img src="../img/product/zephyr/front-black.jpg" />
+							<img src="img/product/zephyr/front-black.jpg" />
 						</div>
 						<div>
-							<img src="../img/product/zephyr/front-gold.jpg" />
+							<img src="img/product/zephyr/front-gold.jpg" />
 						</div>
 					</div>
 				</div>
@@ -392,19 +392,19 @@
 				<div class="col-sm-12">
 					<div class="similar-units-carousel">
 						<div class="unit text-center">
-							<a href="golf-course/cricket-2.php" title="Hobbit 2G">
+							<a href="golf-course/hobbit-2g.php" title="Hobbit 2G">
 								<img src="img/sideview/cricket-2.jpg" />
 								<span>Hobbit 2G</span>
 							</a>
 						</div>
 						<div class="unit text-center">
-							<a href="golf-course/cricket-4.php" title="Hobbit 4G">
+							<a href="golf-course/hobbit-4g.php" title="Hobbit 4G">
 								<img src="img/sideview/cricket-4.jpg" />
 								<span>Hobbit 4G</span>
 							</a>
 						</div>
 						<div class="unit text-center">
-							<a href="golf-course/cricket-6.php" title="Hobbit 6G">
+							<a href="golf-course/hobbit-6g.php" title="Hobbit 6G">
 								<img src="img/sideview/cricket-6.jpg" />
 								<span>Hobbit 6G</span>
 							</a>

@@ -34,7 +34,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<h1 class="sr-only">LSV</h1>
-				<img src="img/art-board/lsv.jpg" class="img-responsive" />
+				<img src="img/art-board/lsv.png" class="img-responsive" />
 			</div>
 		</div>
 	</section>

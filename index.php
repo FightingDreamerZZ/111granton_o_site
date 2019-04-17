@@ -192,21 +192,21 @@
 						<div class="product-carousel initial">
 							<div class="product text-center">
 								<a href="hobbit-g.php" title="Hobbit G Overview" class="hidable">Hobbit G Series Overview</a>
-								<a href="golf-course/cricket-2.php" title="Hobbit 2G"><img src="img/sideview/cricket-2.jpg" /></a>
+								<a href="golf-course/hobbit-2g.php" title="Hobbit 2G"><img src="img/sideview/cricket-2.jpg" /></a>
 								<span class="title">Hobbit 2G</span>
-								<a href="golf-course/cricket-2.php" title="Hobbit 2G" class="hidable">Learn more about this vehicle</a>
+								<a href="golf-course/hobbit-2g.php" title="Hobbit 2G" class="hidable">Learn more about this vehicle</a>
 							</div>
 							<div class="product text-center">
 								<a href="hobbit-g.php" title="Hobbit G Overview" class="hidable">Hobbit G Series Overview</a>
-								<a href="golf-course/cricket-4.php" title="Hobbit 4G"><img src="img/sideview/cricket-4.jpg" /></a>
+								<a href="golf-course/hobbit-4g.php" title="Hobbit 4G"><img src="img/sideview/cricket-4.jpg" /></a>
 								<span class="title">Hobbit 4G</span>
-								<a href="golf-course/cricket-4.php" title="Hobbit 4G" class="hidable">Learn more about this vehicle</a>
+								<a href="golf-course/hobbit-4g.php" title="Hobbit 4G" class="hidable">Learn more about this vehicle</a>
 							</div>
 							<div class="product text-center">
 								<a href="hobbit-g.php" title="Hobbit G Overview" class="hidable">Hobbit G Series Overview</a>
-								<a href="golf-course/cricket-6.php" title="Hobbit 6G"><img src="img/sideview/cricket-6.jpg" /></a>
+								<a href="golf-course/hobbit-6g.php" title="Hobbit 6G"><img src="img/sideview/cricket-6.jpg" /></a>
 								<span class="title">Hobbit 6G</span>
-								<a href="golf-course/cricket-6.php" title="Hobbit 6G" class="hidable">Learn more about this vehicle</a>
+								<a href="golf-course/hobbit-6g.php" title="Hobbit 6G" class="hidable">Learn more about this vehicle</a>
 							</div>
 							<div class="product text-center">
 								<a href="zephyr.php" title="Zephyr Overview" class="hidable">Zephyr Series Overview</a>
@@ -217,8 +217,7 @@
 						</div>
 					</div>
 					<div class="text-center item" id="lsv">
-						<p class="side-padding-150">Decision making is the biggest challenge, we’ve made it easier by offering the best. AGT Electric cars strives to deliver excellence and comfort at low cost, we believe YOU deserve it.</p>
-
+                        <p class="side-padding-150">Decision making is a big challenge. We made it easier by offering the best. AGT Electric cars strives to deliver excellence and comfort at low cost, we believe YOU deserve it.</p>
 						<div class="product-carousel">
 							<div class="product text-center">
 								<a href="lsv.php" title="LSV Overview" class="hidable">LSV Series Overview</a>

@@ -266,3 +266,16 @@ $conn -> close();
             display: block;
         }
     </style>
+
+
+
+<?php
+if ($handle = opendir('downloads/download_files')) {
+    while (false !== ($entry = readdir($handle))) {
+        if ($entry != "." && $entry != "..") {
+            echo "<a style='color:black;text-decoration: underline;' href='system/downloader.php?file=".$entry."'>".$entry."</a><br/>";
+        }
+    }
+    closedir($handle);
+}
+?>

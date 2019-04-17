@@ -21,7 +21,7 @@
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
 	<!-- Custom Stylesheet -->
-	<link href="../css/main.css" type="text/css" rel="stylesheet" />
+	<link href="css/main.css" type="text/css" rel="stylesheet" />
 </head>
 <body class="fadein product-details">
 
@@ -73,7 +73,7 @@
 					<div class="text-center">
 						<span><i class="fa fa-bolt"></i></span>
 						<span>Voltage</span>
-						<span>72V</span>
+						<span>96V</span>
 					</div>
 				</div>
 				<div class="col-xs-3">
@@ -139,11 +139,11 @@
 				                    	</tr>
 				                    	<tr>
 				                    		<td>Turning Radius</td>
-				                    		<td><?php display_length(4.5,"m");?></td>
+				                    		<td><?php display_length(5.4,"m");?></td>
 				                    	</tr>
 				                    	<tr>
 				                    		<td>Climbing Ability (% Grade) Loaded</td>
-				                    		<td>15</td>
+				                    		<td>20</td>
 				                    	</tr>
 				                    </table>
 				                </div>
@@ -165,7 +165,7 @@
 				                    	<li>Onboard Charger</li>
 				                    	<li>Lighting System</li>
 				                    	<li>Windshield Wiper</li>
-				                    	<li>Four Wheel Hydraulic Drum Brake + Foot Parking Brake</li>
+				                    	<li>Four Wheel Hydraulic Drum Brake + Hand Parking Brake</li>
 				                    	<li>Digital Instrument Panel</li>
 				                    	<li>12'' Steel Wheel with 12'' Tire</li>
 									</ul>
@@ -245,7 +245,7 @@
 				                    <table class="table table-bordered table-striped">
 				                    	<tr>
 				                    		<td>Overall Length</td>
-				                    		<td><?php display_length(423);?></td>
+				                    		<td><?php display_length(502);?></td>
 				                    	</tr>
 				                    	<tr>
 				                    		<td>Overall Width</td>
@@ -257,7 +257,7 @@
 				                    	</tr>
 				                    	<tr>
 				                    		<td>Overall Weight (w/ Batteries)</td>
-				                    		<td><?php display_weight(1120);?></td>
+				                    		<td><?php display_weight(1270);?></td>
 				                    	</tr>
 				                    	<tr>
 				                    		<td>Wheelbase</td>

@@ -1,0 +1,59 @@
+# Use PHP5.4 as default
+AddHandler application/x-httpd-php70 .php
+DirectoryIndex index.php
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTP_HOST} ^agtecars\.ca$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.agtecars\.ca$
+RewriteRule ^/?$ "http\:\/\/www\.agtecars\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^agtecars\.net$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.agtecars\.net$
+RewriteRule ^/?$ "http\:\/\/www\.agtecars\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^agtecars\.com$ [NC]
+RewriteRule ^/?$ "http\:\/\/www\.agtecars\.com\/" [R=301,L]
+
+
+#404 Redirect
+ErrorDocument 404 http://www.agtecars.com/404.php
+
+
+#Old Site Redirect
+
+Redirect 301 /index.html http://www.agtecars.com/
+Redirect 301 /aboutus.html /about-us.php
+Redirect 301 /industrial/hobbit-2hcx.php /utility/hobbit-2hcx.php
+Redirect 301 /nomad-electric-off-road-vehcle/utility/utility/nomad.php /utility/nomad.php
+Redirect 301 /passenger/dealer-directory.php /dealer-directory.php
+Redirect 301 /products/ http://www.agtecars.com/
+Redirect 301 /quantum/ http://www.agtecars.com/
+Redirect 301 /rambler-high-capacity-electric-off-road-vehicle/lsv/lsv-2.php /lsv/lsv-2.php
+Redirect 301 /rambler-high-capacity-electric-off-road-vehicle/lsv/lsv/industrial/utility/dealer-directory.php /dealer-directory.php
+Redirect 301 /rambler-high-capacity-electric-off-road-vehicle/lsv/lsv/industrial/utility/hobbit-2h.php /utility/hobbit-2h.php
+Redirect 301 /rambler-high-capacity-electric-off-road-vehicle/lsv/lsv/industrial/utility/lsv/lsv-4.php /lsv/lsv-4.php
+Redirect 301 /rambler-high-capacity-electric-off-road-vehicle/lsv/lsv/industrial/zephyr-2hcx.php /utility/zephyr-2hcx.php
+Redirect 301 /rambler-high-capacity-electric-off-road-vehicle/lsv/lsv/lsv-2hcx.php /lsv/lsv-2hcx.php
+Redirect 301 /zephyr-2/ /golf-course/zephyr-2.php
+Redirect 301 /zephyr-4h/ /utility/zephyr-4h.php
+Redirect 301 /zephyr-4h/passenger/utility/zephyr-2-plus-2.php /utility/zephyr-2-plus-2.php
+Redirect 301 /zephyr-4h/passenger/zephyr-4-plus-2.php /passenger/zephyr-4-plus-2.php
+Redirect 301 /cricket-2-seat-electric-golf-cart-2/golf-course/utility/zephyr-2-plus-2.php /utility/zephyr-2-plus-2.php
+Redirect 301 /dealer-on/ /dealer-directory.php
+Redirect 301 /nomad-electric-off-road-vehcle/ /utility/nomad.php
+Redirect 301 /nomad-electric-off-road-vehcle/utility/nomad.php /utility/nomad.php
+Redirect 301 /quantum-pleasure-drive-electric-chariot/ http://www.agtecars.com/
+Redirect 301 /rambler-high-capacity-electric-off-road-vehicle/ /passenger/rambler.php
+Redirect 301 /cricket-2-seat-electric-golf-cart-2 /golf-course/cricket-2.php
+Redirect 301 /utility/zephyr.php /zephyr.php
+Redirect 301 /about/ /about-us.php
+Redirect 301 /cricket-6-seats-electric-golf-cart/ /golf-course/cricket-6.php
+Redirect 301 /dealer-director-2.php /dealer-directory.php
+Redirect 301 /dev/ http://www.agtecars.com/
+Redirect 301 /contact/ /contact-us.php
+Redirect 301 /dealers/ /dealer-directory.php
+Redirect 301 /dev/ http://www.agtecars.com/
+
+Options -Indexes

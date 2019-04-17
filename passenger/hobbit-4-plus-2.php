@@ -26,7 +26,7 @@
 
 
 	<!-- Custom Stylesheet -->
-	<link href="../css/main.css" type="text/css" rel="stylesheet" />
+	<link href="css/main.css" type="text/css" rel="stylesheet" />
 </head>
 <body class="fadein product-details">
 

@@ -10,6 +10,7 @@
 				<ul>
 					<li><a href="about-us.php" title="Information Request">Information</a></li>
 					<li><a href="contact-us.php" title="Contact Us">Contact Us</a></li>
+                    <li><a href="downloads.php" title="Downloads">Downloads</a></li>
 				</ul>
 				<h5>Our Dealers</h5>
 				<p>Use our directory to find a dealer near you</p>

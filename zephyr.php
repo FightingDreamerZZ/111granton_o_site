@@ -71,17 +71,17 @@
 				<div class="col-sm-4">
 					<img src="img/features/zephyr-headlights.png" class="img-responsive img-center" />
 					<h4>LED Headlights</h4>
-					<p>Standard with LED Energy efficient headlights. See more of the road, LED's emmit whiter light and lasts 2x-3x longer than your conventional headlights.</p>
+                    <p>LEDs provide a better light source and last 2x-3x longer than your conventional headlights.</p>
 				</div>
 				<div class="col-sm-4">
 					<img src="img/features/zephyr-frame.png" class="img-responsive img-center" />
 					<h4>Aluminum Frame</h4>
-					<p>Our aluminum frames make the Zephyr nimble, sturdy and lightweight. Rust and Corrosion resistant.</p>
+                    <p>Our aluminum frames are rust and corrosion resistant, they also make the Zephyr nimble, sturdy and lightweight.</p>
 				</div>
 				<div class="col-sm-4">
 					<img src="img/features/zephyr-suspensions.png" class="img-responsive img-center" />
 					<h4>Independent Suspension</h4>
-					<p>Say no to Rocky Roads with Zephyr's independent suspension. You will be able to enjoy the ride with a lot less bumps. Provides better drive, comfort and handling.</p>
+                    <p>Say no to bumpy rides with Zephyr's independent suspension. Enjoy a more comfortable drive and better handling.</p>
 				</div>
 			</div>
 		</div>

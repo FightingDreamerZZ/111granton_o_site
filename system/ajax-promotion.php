@@ -98,8 +98,8 @@ $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 // Additional headers
 //$email_BCC = "info@agtecars.com";
 //$email_CC = "info@agtecars.com";
-$email_CC = "jason.zhang@agtecars.com";//zz temp
-$headers .= 'CC: '.$email_CC."\r\n";
+$email_BCC = "jason.zhang@agtecars.com";//zz temp
+$headers .= 'BCC: '.$email_BCC."\r\n";
 $headers .= 'From: '.$email_from_name.' <'.$email_from.'>' . "\r\n";
 
 //zz generate coupon code, use existing code for existing email
@@ -135,8 +135,8 @@ try {
     $mail->setFrom($email_from, $email_from_name);
     $mail->addAddress($email_to, $email_to_name);
 //    $mail->addReplyTo('info@xx.com', 'Information');
-    $mail->addCC($email_CC);
-//    $mail->addBCC('bcc@example.com');
+//    $mail->addCC($email_CC);
+    $mail->addBCC($email_BCC);
 
     //prepare attachmt
     $str_data="";
@@ -190,7 +190,8 @@ try {
     $mail->AltBody = $email_plain_text_content;
 
     $mail->send();
-    $result['message'] = "Coupon successfully sent! Please check your email for the coupon.";
+    $result['message'] = "Coupon successfully sent! Please check your email for the coupon.<br/><br />
+<small>Please note that for some email clients, it may take longer to get the email. <!--Please also check the SPAM folder if no email received.--></small>";
     $result['type'] = "success";
 
     //zz write to DB after success sending, do nothing for existing email

@@ -81,13 +81,49 @@ header .nav>li { position:initial;}
     header #myNavbar ul > li.smple > a { position:relative;}
 
     header #myNavbar ul > li > ul > li.overview { width:100%!important; padding:0;}
-    header #myNavbar ul > li > ul > li > a.overview-link { text-shadow:1px 1px 5px #000; color:#fff; font-size:22px; display:block; background-image:url('gfx/bg-overview_link.jpg'); background-position:center; padding:30px 0; background-size:100% auto; transition:0.75s;}
+    header #myNavbar ul > li > ul > li > a.overview-link {
+        color:#fff;
+        font-size:22px;
+        display:block;
+        background-image:url('gfx/bg-overview_link.jpg');
+        background-position:center;
+        padding:30px 0;
+        background-size:100% auto;
+        transition:0.75s;
+    }
+    header #myNavbar ul > li > ul > li > div.overview-link {
+        color:#fff;
+        font-size:22px;
+        display:block;
+        background-image:url('gfx/bg-overview_link.jpg');
+        background-position:center;
+        padding:30px 0;
+        background-size:100% auto;
+        transition:0.75s;
+    }
     header #myNavbar ul > li > ul > li > a > span { color:#a0c800;}
     header #myNavbar ul > li > ul > li > a.overview-link:hover { background-size:115%;}
+    header #myNavbar ul > li > ul > li > div.overview-link:hover { background-size:115%;}
 
-    header #myNavbar .overview-link-group { font-size:22px; text-shadow:1px 1px 5px #000; color:#fff; background-image:url('gfx/bg-overview_link.jpg'); background-position:center; background-size:100% auto; transition:0.75s;}
+header #myNavbar .overview-link-group { font-size:22px; text-shadow:1px 1px 5px #000; color:#fff; background-image:url('gfx/bg-overview_link.jpg'); background-position:center; background-size:100% auto; transition:0.75s;}
     header #myNavbar .overview-link-group:hover { background-size:115%;}
     header #myNavbar .overview-link-group a { display:inline-block; padding:30px 0;}
+
+    /*Nav bar vehicle overview button*/
+    .btn-vehicleoverview {
+        font-weight: bold;
+        color:#fff;
+        border-color: #fff;
+        background-color: transparent;
+        opacity: 70%;
+    }
+    .btn-vehicleoverview:hover {
+        font-weight: bold;
+        color:#555;
+        border-color: #000;
+        /*background-color: #ccc;*/
+        background-color: #fff;
+    }
 
 /* Body */
 
@@ -633,3 +669,14 @@ footer #dealer-directory-button:hover { background-color:#445500; color:#fff;}
 }
 #section_features_promo p { font-size:16px; color:#000; text-shadow:1px 1px 5px #ccc; margin-top:15px; text-align:center;}
 #section_features_promo h4 { color:#87ad4a; margin-top:30px; padding-bottom:5px; border-bottom:1px solid #4e7fb9; font-size:24px;}
+@media (min-width: 1250px) {
+    #container_navbar {width:1240px;}
+}
+.blue-link-low-profile{
+    text-decoration: underline;
+    color:#337ab7;
+    /*font-weight: bold*/
+}
+.blue-link-low-profile:hover{
+    color: #2e5994;
+}

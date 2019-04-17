@@ -1,3 +1,5 @@
+# Use PHP5.4 as default
+AddHandler application/x-httpd-ea-php70 .php
 DirectoryIndex index.php
 
 RewriteEngine On
@@ -53,3 +55,5 @@ Redirect 301 /dev/ http://www.agtecars.com/
 Redirect 301 /contact/ /contact-us.php
 Redirect 301 /dealers/ /dealer-directory.php
 Redirect 301 /dev/ http://www.agtecars.com/
+
+Options -Indexes

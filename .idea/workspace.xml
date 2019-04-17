@@ -2,28 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b594c9c9-1261-498a-9fd6-1e8933709059" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-us.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact-us.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dealer-directory.php" beforeDir="false" afterPath="$PROJECT_DIR$/dealer-directory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/golf-course/cricket-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/golf-course/cricket-2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golf-course/cricket-4.php" beforeDir="false" afterPath="$PROJECT_DIR$/golf-course/cricket-4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golf-course/cricket-6.php" beforeDir="false" afterPath="$PROJECT_DIR$/golf-course/cricket-6.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/golf-course/zephyr-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/golf-course/zephyr-2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hobbit.php" beforeDir="false" afterPath="$PROJECT_DIR$/hobbit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/art-board/lsv.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slide-lsv.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/slide-lsv.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/inc.header.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/inc.header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/industrial/kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/industrial/kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/industrial/marrow.php" beforeDir="false" afterPath="$PROJECT_DIR$/industrial/marrow.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/industrial/nucleus.php" beforeDir="false" afterPath="$PROJECT_DIR$/industrial/nucleus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/industrial/proton.php" beforeDir="false" afterPath="$PROJECT_DIR$/industrial/proton.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsv/lsv-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lsv/lsv-2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsv/lsv-2hcx.php" beforeDir="false" afterPath="$PROJECT_DIR$/lsv/lsv-2hcx.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lsv/lsv-4.php" beforeDir="false" afterPath="$PROJECT_DIR$/lsv/lsv-4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger/argo-11.php" beforeDir="false" afterPath="$PROJECT_DIR$/passenger/argo-11.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger/argo-14.php" beforeDir="false" afterPath="$PROJECT_DIR$/passenger/argo-14.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger/argo-23.php" beforeDir="false" afterPath="$PROJECT_DIR$/passenger/argo-23.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger/argo-8.php" beforeDir="false" afterPath="$PROJECT_DIR$/passenger/argo-8.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger/hobbit-4-plus-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/passenger/hobbit-4-plus-2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger/hobbit-6-plus-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/passenger/hobbit-6-plus-2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger/rambler.php" beforeDir="false" afterPath="$PROJECT_DIR$/passenger/rambler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/passenger/zephyr-4-plus-2.php" beforeDir="false" afterPath="$PROJECT_DIR$/passenger/zephyr-4-plus-2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_old1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lsv.php" beforeDir="false" afterPath="$PROJECT_DIR$/lsv.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/promotion.php" beforeDir="false" afterPath="$PROJECT_DIR$/promotion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/ajax-promotion.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/ajax-promotion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/code_temp.php" beforeDir="false" afterPath="$PROJECT_DIR$/temp/code_temp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zephyr.php" beforeDir="false" afterPath="$PROJECT_DIR$/zephyr.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,101 +41,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="promotion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/promotion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1224">
-              <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="promotion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/promotion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="322" column="8" selection-start-line="322" selection-start-column="8" selection-end-line="322" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="contact-us.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact-us.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="60" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
+            <state>
+              <caret column="38" lean-forward="true" selection-start-column="38" selection-end-line="2" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax-post.form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/ajax-post.form.php">
+      <file leaf-file-name="dealer-directory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dealer-directory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="952">
-              <caret line="57" column="17" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="17" />
-              <folding>
-                <element signature="e#35#69#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="254">
+              <caret line="936" column="32" lean-forward="true" selection-start-line="936" selection-start-column="32" selection-end-line="936" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2159">
-              <caret line="127" column="50" selection-start-line="127" selection-start-column="50" selection-end-line="127" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inc.javascript.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/inc.javascript.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajax-promotion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/system/ajax-promotion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="63" column="30" lean-forward="true" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+            <state relative-caret-position="238">
+              <caret line="83" column="112" lean-forward="true" selection-start-line="83" selection-start-column="112" selection-end-line="83" selection-end-column="112" />
               <folding>
-                <element signature="e#103#137#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sql_temp.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/temp/sql_temp.php">
+      <file leaf-file-name="downloads.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/downloads.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="124" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="124" />
+            <state relative-caret-position="1564">
+              <caret line="92" column="7" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testzzz.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/testzzz.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="76" column="18" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="18" />
-              <folding>
-                <element signature="e#2283#2352#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="coupon_promo_backend.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="coupon_promo_backend.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/system/coupon_promo_backend.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3111">
-              <caret line="188" column="49" selection-start-line="188" selection-start-column="49" selection-end-line="188" selection-end-column="49" />
+            <state relative-caret-position="663">
+              <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="database1.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/database1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inc.footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/inc.footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="126" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="126" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="code_temp.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/temp/code_temp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4675">
+              <caret line="280" column="2" selection-start-line="280" selection-start-column="2" selection-end-line="280" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="downloader.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/downloader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -159,27 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>new mysqli</find>
-      <find>g-recaptcha</find>
-      <find>$email_BCC</find>
-      <find>features</find>
-      <find>text-decoration:none</find>
-      <find>edit_type</find>
-      <find>n_a</find>
-      <find>$status</find>
-      <find>$photo</find>
-      <find>$consent</find>
-      <find>validator</find>
-      <find>contact-form</find>
-      <find>loading.gif</find>
-      <find>window.lo</find>
-      <find>result</find>
-      <find>section_features_promo</find>
-      <find>username</find>
-      <find>smtp</find>
-      <find>mail</find>
-      <find>$email_to_name</find>
-      <find>coupons</find>
       <find>mail-&gt;SMTPDebug</find>
       <find>promo_btn_dealer</find>
       <find>argo-range.png</find>
@@ -189,6 +152,27 @@
       <find>&lt;/p&gt;</find>
       <find>scrollTop</find>
       <find>11px</find>
+      <find>cricket-2</find>
+      <find>cricket-4</find>
+      <find>cricket-6</find>
+      <find>Zephyr</find>
+      <find>learn more about our</find>
+      <find>dev</find>
+      <find>Learn more about our</find>
+      <find>150px</find>
+      <find>overview-link</find>
+      <find>overview-link-group</find>
+      <find>background-size:115%;</find>
+      <find>Hobbit G Series Overview</find>
+      <find>btn btn-default&quot;&gt;Learn</find>
+      <find>&amp;nbsp;&amp;nbsp;&amp;nbsp;&gt;&gt;</find>
+      <find>btn btn-default btn-lg</find>
+      <find>@media</find>
+      <find>zephyr series overview</find>
+      <find>hidden-sm</find>
+      <find>Zephyr Ser</find>
+      <find>mobile-list</find>
+      <find>/img</find>
     </findStrings>
     <replaceStrings>
       <replace>img</replace>
@@ -197,6 +181,11 @@
       <replace>&lt;/a&gt;</replace>
       <replace>11px</replace>
       <replace>12px</replace>
+      <replace>hobbit-2g</replace>
+      <replace>hobbit-4g</replace>
+      <replace>hobbit-6g</replace>
+      <replace>btn btn-default btn-lg btn-vehicleoverview</replace>
+      <replace>&lt;?php echo $path_prefix;?&gt;img</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -205,30 +194,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lsv/lsv-2hcx.php" />
-        <option value="$PROJECT_DIR$/lsv/lsv-4.php" />
-        <option value="$PROJECT_DIR$/passenger/argo-8.php" />
-        <option value="$PROJECT_DIR$/passenger/argo-11.php" />
-        <option value="$PROJECT_DIR$/passenger/argo-14.php" />
-        <option value="$PROJECT_DIR$/passenger/argo-23.php" />
-        <option value="$PROJECT_DIR$/passenger/hobbit-4-plus-2.php" />
-        <option value="$PROJECT_DIR$/passenger/hobbit-6-plus-2.php" />
-        <option value="$PROJECT_DIR$/passenger/rambler.php" />
-        <option value="$PROJECT_DIR$/passenger/zephyr-4-plus-2.php" />
-        <option value="$PROJECT_DIR$/utility/hobbit-2-plus-2.php" />
-        <option value="$PROJECT_DIR$/golf-course/zephyr-2.php" />
-        <option value="$PROJECT_DIR$/dealer-directory.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/dealer-directory.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-6g.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-g.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-2g.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit-4g.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/zephyr-2.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/inc.header.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
-        <option value="$PROJECT_DIR$/hobbit.php" />
-        <option value="$PROJECT_DIR$/include/inc.header.php" />
         <option value="$PROJECT_DIR$/login/system/ajax.login.php" />
         <option value="$PROJECT_DIR$/../www/new_part.php" />
         <option value="$PROJECT_DIR$/css/system_coupon_promo_backend.css" />
@@ -244,18 +216,35 @@
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/ajax-post.form.php" />
         <option value="$PROJECT_DIR$/temp/package.json" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/testzz.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/ajax-promotion.php" />
-        <option value="$PROJECT_DIR$/temp/code_temp.php" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/temp/sql_temp.php" />
-        <option value="$PROJECT_DIR$/system/coupon_promo_backend.php" />
-        <option value="$PROJECT_DIR$/contact-us.php" />
         <option value="$PROJECT_DIR$/include/inc.javascript.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/promotion.php" />
         <option value="$USER_HOME$/Downloads/testzzz.html" />
         <option value="$PROJECT_DIR$/system/ajax-promotion.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/ajax-promotion.php" />
+        <option value="$PROJECT_DIR$/promotion.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/promotion.php" />
+        <option value="$PROJECT_DIR$/lsv.php" />
+        <option value="$PROJECT_DIR$/zephyr.php" />
+        <option value="$PROJECT_DIR$/hobbit.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/contact-us.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/lsv.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/zephyr.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit.php" />
+        <option value="$PROJECT_DIR$/css/main_old.css" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/include/inc.header.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/main.css" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/inc.header.php" />
+        <option value="$PROJECT_DIR$/downloads/index.php" />
+        <option value="$PROJECT_DIR$/system/downloader.php" />
+        <option value="$PROJECT_DIR$/temp/code_temp.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/inc.footer.php" />
+        <option value="$PROJECT_DIR$/downloads.php" />
+        <option value="$PROJECT_DIR$/system/coupon_promo_backend.php" />
+        <option value="$PROJECT_DIR$/contact-us.php" />
+        <option value="$PROJECT_DIR$/dealer-directory.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -297,8 +286,7 @@
             <path>
               <item name="111granton_o_site" type="b2602c69:ProjectViewProjectNode" />
               <item name="111granton_o_site" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="gfx" type="462c0819:PsiDirectoryNode" />
+              <item name="downloads" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="111granton_o_site" type="b2602c69:ProjectViewProjectNode" />
@@ -308,31 +296,12 @@
             <path>
               <item name="111granton_o_site" type="b2602c69:ProjectViewProjectNode" />
               <item name="111granton_o_site" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="111granton_o_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="111granton_o_site" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="111granton_o_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="111granton_o_site" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="111granton_o_site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="111granton_o_site" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
               <item name="system" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="111granton_o_site" type="b2602c69:ProjectViewProjectNode" />
               <item name="111granton_o_site" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -411,17 +380,30 @@
       <workItem from="1543967282937" duration="3714000" />
       <workItem from="1544132513153" duration="1329000" />
       <workItem from="1544191491503" duration="58000" />
-      <workItem from="1544466551038" duration="1324000" />
+      <workItem from="1544466551038" duration="5163000" />
+      <workItem from="1544475216990" duration="2677000" />
+      <workItem from="1544497771469" duration="111000" />
+      <workItem from="1545161179888" duration="3513000" />
+      <workItem from="1545166216632" duration="8258000" />
+      <workItem from="1545227510944" duration="7523000" />
+      <workItem from="1549484615353" duration="1670000" />
+      <workItem from="1549490964106" duration="2996000" />
+      <workItem from="1549635255765" duration="6370000" />
+      <workItem from="1550585349837" duration="109000" />
+      <workItem from="1551991197823" duration="1311000" />
+      <workItem from="1555443045246" duration="1342000" />
+      <workItem from="1555515007513" duration="4436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221346000" />
+    <option name="totallyTimeSpent" value="265501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.44986072" visible="true" weight="0.16778524" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.44289693" visible="true" weight="0.19731544" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3286908" />
@@ -429,7 +411,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" sideWeight="0.55013925" side_tool="true" visible="true" weight="0.16778524" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.55710304" side_tool="true" visible="true" weight="0.19731544" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -449,154 +431,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dealer-directory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13719">
-          <caret line="807" column="30" selection-start-line="807" selection-start-column="30" selection-end-line="807" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_7.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17425">
-          <caret line="1025" column="98" selection-start-line="1025" selection-start-column="9" selection-end-line="1025" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about-us.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" lean-forward="true" selection-end-line="68" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/inc.header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="1256" column="42" selection-start-line="1256" selection-start-column="42" selection-end-line="1256" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/inc.header-dev.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hobbit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mysqli/mysqli.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/sql script/agtecar1_system.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zephyr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/gd/gd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="671" column="34" selection-start-line="670" selection-start-column="32" selection-end-line="671" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../www/new_part.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="177" column="45" selection-start-line="177" selection-start-column="45" selection-end-line="177" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/system_coupon_promo_backend.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/core-scripting.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="219" column="18" selection-start-line="219" selection-start-column="18" selection-end-line="219" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/database1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="1" selection-start-line="7" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/validator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="390" column="2" selection-start-line="390" selection-start-column="2" selection-end-line="390" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/haha.jpg" />
-    <entry file="file://$PROJECT_DIR$/testzz.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="108" column="32" lean-forward="true" selection-start-line="108" selection-start-column="32" selection-end-line="108" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/system/ajax.login.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="43" selection-start-line="14" selection-start-column="19" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/lightbox/js/lightbox-plus-jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="9883" selection-start-line="9883" selection-end-line="9883" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="113" column="32" selection-start-line="113" selection-start-column="32" selection-end-line="113" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/temp/agtecar1_system181127.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
@@ -634,21 +468,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/testzz.php" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/ajax-promotion.php" />
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10268">
-          <caret line="604" selection-start-line="604" selection-end-line="604" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/code_temp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4437">
-          <caret line="266" column="9" selection-start-line="266" selection-start-column="9" selection-end-line="266" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -670,37 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact-us.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="60" selection-start-line="65" selection-start-column="60" selection-end-line="65" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/ajax-post.form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="57" column="17" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="17" />
-          <folding>
-            <element signature="e#35#69#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/inc.javascript.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2159">
-          <caret line="127" column="50" selection-start-line="127" selection-start-column="50" selection-end-line="127" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -712,25 +500,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="76" column="18" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="18" />
-          <folding>
-            <element signature="e#2283#2352#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/system/ajax-promotion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="63" column="30" lean-forward="true" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
-          <folding>
-            <element signature="e#103#137#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/zeke.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/zeke.php" />
     <entry file="file://$PROJECT_DIR$/temp/sql_temp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -738,24 +511,174 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/promotion.php">
+    <entry file="file://$PROJECT_DIR$/system/ajax-post.form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1224">
-          <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+        <state relative-caret-position="17">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="4" selection-end-line="57" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/promotion.php">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/ajax-promotion.php" />
+    <entry file="file://$PROJECT_DIR$/system/ajax-promotion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="322" column="8" selection-start-line="322" selection-start-column="8" selection-end-line="322" selection-end-column="8" />
+        <state relative-caret-position="273">
+          <caret line="193" column="143" selection-start-line="192" selection-start-column="91" selection-end-line="193" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/promotion.php" />
+    <entry file="file://$PROJECT_DIR$/lsv.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/lsv.php" />
+    <entry file="file://$PROJECT_DIR$/zephyr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="41" selection-start-line="86" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/hobbit.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/zephyr.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/index.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/contact-us.php" />
+    <entry file="file://$PROJECT_DIR$/hobbit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="74" column="157" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/inc.javascript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main_old.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="88" column="27" lean-forward="true" selection-start-line="88" selection-start-column="27" selection-end-line="88" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promotion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11186">
+          <caret line="658" column="1" selection-start-line="656" selection-end-line="658" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/inc.header.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/main.css" />
+    <entry file="file://$PROJECT_DIR$/include/inc.header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="49" selection-end-line="225" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/downloads.php" />
+    <entry file="file://$PROJECT_DIR$/temp/code_temp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4675">
+          <caret line="280" column="2" selection-start-line="280" selection-start-column="2" selection-end-line="280" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/downloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/inc.footer.php" />
+    <entry file="file://$PROJECT_DIR$/include/inc.footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="126" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/database1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/session/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="178" column="9" selection-start-line="178" selection-start-column="9" selection-end-line="178" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/downloads.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1564">
+          <caret line="92" column="7" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/coupon_promo_backend.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3111">
-          <caret line="188" column="49" selection-start-line="188" selection-start-column="49" selection-end-line="188" selection-end-column="49" />
+        <state relative-caret-position="663">
+          <caret line="44" column="10" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess.ea4bak">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess.bak.1543111887">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dealer-directory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="936" column="32" lean-forward="true" selection-start-line="936" selection-start-column="32" selection-end-line="936" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="83" column="112" lean-forward="true" selection-start-line="83" selection-start-column="112" selection-end-line="83" selection-end-column="112" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

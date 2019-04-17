@@ -87,8 +87,15 @@
         <div class="row">
             <div class="col-lg-12">
                 <p>
-<!--                    Enter your email below to receive the coupon containing the abovementioned offers and an individual coupon number. The coupon will be displayed directly in the email as well as be available for download through attachments. Please note that offers cannot be combined and are available at select Ontario dealerships. To receive the offer, the coupon MUST be presented to the dealer. For Trade-in option, please contact the dealer in advance.-->
-                    Buy a new Zephyr and receive a $200 discount or, trade-in an old cart and receive a $300 discount. Enter your email below to receive the coupon containing the offers and an individual coupon number. The coupon will be displayed directly in the email as well as be available for download through attachments. Please note that offers cannot be combined and are available at select Ontario dealerships. To receive the offer, the coupon MUST be presented to the dealer. For Trade-in option, please contact the dealer in advance.
+                    <!--                    Enter your email below to receive the coupon containing the abovementioned offers and an individual coupon number. The coupon will be displayed directly in the email as well as be available for download through attachments. Please note that offers cannot be combined and are available at select Ontario dealerships. To receive the offer, the coupon MUST be presented to the dealer. For Trade-in option, please contact the dealer in advance.-->
+                    Buy a new Zephyr and receive a $200 discount or, trade-in an old cart and receive a $300 discount.
+                    Enter your email below to receive the coupon containing the offers and an individual coupon number.
+                    The coupon will be displayed directly in the email as well as be available for download through attachments.
+                    Please note that offers cannot be combined and are available at select Ontario dealerships.
+                    To receive the offer, the coupon MUST be presented to the dealer.
+                    For Trade-in option, please
+                    <a href="dealer-directory.php" class="blue-link-low-profile">contact the dealer</a>
+                    in advance.
                 </p>
                 <br />
                 <div style="font-size: 14px">
@@ -147,7 +154,7 @@
             <div class="col-sm-2">
                 <h4 style="border-bottom:1px solid #4e7fb9">LED Lights</h4>
                 <p>
-                    All <a href="zephyr.php" style="text-decoration: underline;color:#000000">Zephyr</a> models are equipped with LED
+                    All <a href="zephyr.php" class="blue-link-low-profile">Zephyr</a> models are equipped with LED
                     energy efficient headlights. The LED lights emit
                     brighter light and last up to 3 times longer than
                     the average conventional headlights.
@@ -162,7 +169,7 @@
                 <h4 style="border-bottom:1px solid #4e7fb9">Versatile</h4>
                 <p>
                     Enjoy your new ride with family and friends. The
-                    Zephyr models are highly versatile when it
+                    <a href="zephyr.php" class="blue-link-low-profile">Zephyr</a> models are highly versatile when it
                     comes to capacity and can seat anywhere
                     between 2 to 6 individuals.
                 </p>
@@ -193,7 +200,7 @@
                 <h4 style="border-bottom:1px solid #4e7fb9">Range</h4>
                 <p>
                     At AGT we go beyond the average!
-                    All the Zephyr models are equipped with 8, 6v Trojan batteries.
+                    All the <a href="zephyr.php" class="blue-link-low-profile">Zephyr</a> models are equipped with 8, 6v Trojan batteries.
                     This feature provides the carts with a longer range.
                 </p>
             </div>
@@ -321,15 +328,6 @@
 
 
 <script>
-
-    $(function() {
-        $('#testzz1').on('click', function() {
-            $('.imagepreview1').attr('src', "http://www.agtecars.com/img/agt_logo_white.jpg");
-            $('.imagepreview2').attr('src', "http://www.agtecars.com/img/slide-bus.png");
-            $('#imagemodal').modal('show');
-        });
-    });
-
     $(document).ready(function () {
             $(document).ajaxStart(function () {
                     $("#waiting_animation").show();

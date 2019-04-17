@@ -98,22 +98,22 @@
 				<div class="col-sm-12">
 					<div class="lineup-carousel">
 						<div class="unit text-center">
-							<a href="golf-course/cricket-2.php" title="Hobbit 2G"><img src="img/sideview/cricket-2.jpg" class="img-responsive" /></a>
+							<a href="golf-course/hobbit-2g.php" title="Hobbit 2G"><img src="img/sideview/cricket-2.jpg" class="img-responsive" /></a>
 							<h4>Hobbit 2G</h4>
 							<hr />
-							<a href="golf-course/cricket-2.php" class="btn btn-default" title="Cricket 2">Learn More</a>
+							<a href="golf-course/hobbit-2g.php" class="btn btn-default" title="Cricket 2">Learn More</a>
 						</div>
 						<div class="unit text-center">
-							<a href="golf-course/cricket-4.php" title="Hobbit 4G<"><img src="img/sideview/cricket-4.jpg" class="img-responsive" /></a>
+							<a href="golf-course/hobbit-4g.php" title="Hobbit 4G<"><img src="img/sideview/cricket-4.jpg" class="img-responsive" /></a>
 							<h4>Hobbit 4G</h4>
 							<hr />
-							<a href="golf-course/cricket-4.php" class="btn btn-default" title="Hobbit 4G<">Learn More</a>
+							<a href="golf-course/hobbit-4g.php" class="btn btn-default" title="Hobbit 4G<">Learn More</a>
 						</div>
 						<div class="unit text-center">
-							<a href="golf-course/cricket-6.php" title="Hobbit 6G"><img src="img/sideview/cricket-6.jpg" class="img-responsive" /></a>
+							<a href="golf-course/hobbit-6g.php" title="Hobbit 6G"><img src="img/sideview/cricket-6.jpg" class="img-responsive" /></a>
 							<h4>Hobbit 6G</h4>
 							<hr />
-							<a href="golf-course/cricket-6.php" class="btn btn-default" title="Hobbit 6G">Learn More</a>
+							<a href="golf-course/hobbit-6g.php" class="btn btn-default" title="Hobbit 6G">Learn More</a>
 						</div>
 					</div>
 				</div>

@@ -1,4 +1,7 @@
-<?php include("system/functions.php"); ?>
+<?php include("system/functions.php");
+//$path_prefix = '/';//zz: live server
+$path_prefix = '';//zz: localhost
+?>
 <!DOCTYPE HTML>
 
 <html>
@@ -23,7 +26,7 @@
 	<link href="css/main.css" type="text/css" rel="stylesheet" />
 
 	<!-- Google reCaptcha -->
-<!--	<script src='https://www.google.com/recaptcha/api.js'></script>-->
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body class="fadein contact">
 
@@ -41,7 +44,13 @@
 
 					<h3>Have a question?</h3>
 					<p>Feel free to drop us a line; whether it's a simple question or if you're thinking about becoming one our associated dealers. AGT Electric Cars will answer all your questions as quickly as possible.</p>
-					<form role="form" id="contact-form" data-toggle="validator">
+                    <P>Or contact us on
+                        <a href="https://www.facebook.com/agtelectriccars" target="_blank" title="AGT Electric Cars Facebook"
+                           style="text-decoration: underline;color: black">
+                            Facebook
+                        </a>.
+                    </P>
+                    <form role="form" id="contact-form" data-toggle="validator">
 						<div class="row">
 							<div class="col-sm-3">
 								<div class="form-group">
@@ -63,7 +72,7 @@
 							</div>
 							<div class="col-sm-8">
 								<div class="form-group">
-									<label for="email">Email<span>*</span></label>
+									<label for="email">Email <span>*</span></label>
 									<input type="email" name="email" id="email" class="form-control" required />
 								</div>
 								<div class="consent-text">
@@ -98,7 +107,7 @@
 						</div>
 						<div class="row">
 							<div class="col-sm-12">
-<!--								<div class="g-recaptcha" data-sitekey="6Lf9zlsUAAAAAEWV52cqnqij4VXwvtH7Tp8JEsJb"></div>-->
+								<div class="g-recaptcha" data-sitekey="6Lf9zlsUAAAAAEWV52cqnqij4VXwvtH7Tp8JEsJb"></div>
 							</div>
 							<div class="col-sm-4">
 								<input type="submit" class="form-control btn btn-primary btn-block margin-top-10" value="Send" />
@@ -117,6 +126,12 @@
 						<li><span><i class="fa fa-location-arrow fa-fw"></i></span> 111 Granton Drive, Unit #301</li>
 						<li class="second-line">Richmond Hill, Ontario, Canada</li>
 						<li class="second-line">L4B 1L5</li>
+                        <li class="second-line">
+                            <small>*Headquarter Office, please contact
+                                <a href="dealer-directory.php" style="color: #000;text-decoration: underline;">
+                                    dealer</a> for viewing/sales enquiries.
+                            </small>
+                        </li>
 						<li><span><i class="fa fa-phone fa-fw"></i></span> <a href="tel:+19055976227">1<span class="first-separator"></span>905<span class="second-separator"></span>597<span class="third-separator"></span>6227</a></li>
 						<li><span><i class="fa fa-fax fa-fw"></i></span> 1<span class="first-separator"></span>905<span class="second-separator"></span>597<span class="third-separator"></span>6228</li>
 						<li><span><i class="fa fa-envelope-o fa-fw"></i></span> <a href="mailto:info@agecars.com">info@agtecars.com</a></li>
@@ -158,7 +173,7 @@
 			  } else {
 			    // Submit the form
 				$.ajax({
-					url: "system/ajax-post.form.php",
+					url: "<?php echo $path_prefix;?>system/ajax-post.form.php",
 					data: $("#contact-form").serialize(),
 					dataType: "json",
 					type: "post",
@@ -179,8 +194,9 @@
 						}
 					},
 					error: function(data){
-					    console.log(data);
-						$("#contact-form #feedback").html(data.toString() +  "<div class='error'>An error has occured, please try again.</div>").fadeIn("fast");
+                        console.log(data);
+                        // $("#contact-form #feedback").html(data.toString() +  "<div class='error'>An error has occured, please try again.</div>").fadeIn("fast");
+						$("#contact-form #feedback").html("<div class='error'>An error has occured, please try again.</div>").fadeIn("fast");
 						
 						setTimeout(function(){
 							$("#contact-form #feedback").fadeOut("slow",function(){ 

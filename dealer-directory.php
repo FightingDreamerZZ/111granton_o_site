@@ -1,4 +1,6 @@
-<?php include("system/functions.php"); ?>
+<?php include("system/functions.php");
+//$path_prefix = '/';//zz: live server
+$path_prefix = '';//zz: localhost?>
 
 <!DOCTYPE HTML>
 
@@ -138,7 +140,8 @@
 						<option value='dorval'>Dorval</option>
 						<option value='montreal'>Montreal</option>
 						<option value='sorel-tracy'>Sorel-Tracy</option>
-					</select>
+                        <option value='saguenay'>Saguenay</option>
+                    </select>
 					<select id="city-british-columbia" class="dropdown-city form-control">
 						<option value=''>Select a City</option>
 						<option value='delta'>Delta</option>
@@ -170,7 +173,7 @@
 							<span>Albion Golf Cars</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/AlbionGolfCars.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/AlbionGolfCars.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -203,10 +206,10 @@
 				<div class="dealer ontario stouffville col-sm-3">
 					<div class="dealer-wrapper margin-top-20">
 						<div class="title">
-							<span>Bennette Golf Cars</span>
+							<span>Bennett Golf Cars</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/BennetteGolfCars.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/BennetteGolfCars.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -242,7 +245,7 @@
 							<span>Canadian Cart Sales</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/CanadianCartSales.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/CanadianCartSales.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -277,7 +280,7 @@
 							<span>Cart Guy</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/CartGuy.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/CartGuy.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -316,7 +319,7 @@
 							<span>Cart World</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/CartWorld.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/CartWorld.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -352,7 +355,7 @@
 							<span>Doug Garner Golf Cart Shop</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/DougGarner.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/DougGarner.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -388,7 +391,7 @@
 							<span>Otterville Custom Golf Carts</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/OttervilleCustomCarts.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/OttervilleCustomCarts.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -424,7 +427,7 @@
 							<span>Skyway Lawn Equipment Ltd.</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/SkywayLawn.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/SkywayLawn.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -461,7 +464,7 @@
 							<span>Trailer Trash Toyz</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/TrailerTrashToyz.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/TrailerTrashToyz.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -497,7 +500,7 @@
 							<span>Wayne Morrow Auto</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/dealer-placeholder.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/dealer-placeholder.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -532,7 +535,7 @@
 							<span>Websters Beacon</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/WebstersBeacon.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/WebstersBeacon.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -567,7 +570,7 @@
 							<span>Rick Butera</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/dealer-placeholder.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/dealer-placeholder.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -602,7 +605,7 @@
 							<span>Calgary Golf Car Center</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/dealer-placeholder.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/dealer-placeholder.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -636,7 +639,7 @@
 							<span>Koolsville Kustoms Ltd.</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/KoolsvilleKustoms.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/KoolsvilleKustoms.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -668,7 +671,7 @@
 							<span>Lakeview Small Power</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/LakeviewSmallPower.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/LakeviewSmallPower.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -708,7 +711,7 @@
 							<span>Golfmobiles Inc.</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/GolfmobilesInc.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/GolfmobilesInc.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -718,13 +721,13 @@
 						</div>
 						<div class="phone">
 							<ul>
-								<li><i class="fa fa-phone fa-fw"></i> Local: <a href="tel:+15146313775">514-631-3775</a></li>
+								<li><i class="fa fa-phone fa-fw"></i> Local: <a href="tel:+15142421931">514-242-1931</a></li>
 								<li><i class="fa fa-fax fa-fw"></i> Fax: 519-647-0200</li>
 							</ul>
 						</div>
 						<div class="email">
 							<ul>
-								<li><i class="fa fa-envelope fa-fw"></i> campagna.lorena@gmail.com</li>
+								<li><i class="fa fa-envelope fa-fw"></i> info@golfmobiles.ca</li>
 							</ul>
 						</div>
 						<div class="website">
@@ -741,7 +744,7 @@
 							<span>Gestion Cart</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/GestionCart.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/GestionCart.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -751,8 +754,8 @@
 						</div>
 						<div class="phone">
 							<ul>
-								<li><i class="fa fa-phone fa-fw"></i> Local: <a href="tel:+14507436850">514-712-7675</a></li>
-								<li><i class="fa fa-phone fa-fw"></i> Local: <a href="tel:+14507436850">514-344-2037</a></li>
+								<li><i class="fa fa-phone fa-fw"></i> Local: <a href="tel:+15147127675">514-712-7675</a></li>
+								<li><i class="fa fa-phone fa-fw"></i> Local: <a href="tel:+15143442037">514-344-2037</a></li>
 								<li><i class="fa fa-fax fa-fw"></i> Fax: 514-738-3048</li>
 							</ul>
 						</div>
@@ -775,7 +778,7 @@
 							<span>Voiturettes M. Bouchard</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/MBouchard.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/MBouchard.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -801,13 +804,13 @@
 					</div>
 				</div><!-- Dealer Item -->
 
-                <div class="dealer quebec montreal col-sm-3">
+                <div class="dealer quebec saguenay col-sm-3">
                     <div class="dealer-wrapper margin-top-20">
                         <div class="title">
                             <span>Voiturette de Golf Saguenay</span>
                         </div>
                         <div class="image">
-                            <img src="img/dealers/VoituretteDeGolfSaguenay.jpg" class="img-responsive" />
+                            <img src="img/dealers/VoituretteDeGolfSaguenay.png" class="img-responsive" />
                         </div>
                         <div class="address">
                             <ul>
@@ -819,7 +822,7 @@
                             <ul>
                                 <li><i class="fa fa-phone fa-fw"></i> Local: <a href="tel:+14186761073">418-676-1073</a></li>
                                 <li><i class="fa fa-phone fa-fw"></i> Local: <a href="tel:+14189441972">418-944-1972</a></li>
-<!--                                <li><i class="fa fa-fax fa-fw"></i> Fax: 514-738-3048</li>-->
+                                <!--                                <li><i class="fa fa-fax fa-fw"></i> Fax: 514-738-3048</li>-->
                             </ul>
                         </div>
                         <div class="email">
@@ -829,7 +832,7 @@
                         </div>
                         <div class="website">
                             <ul>
-                                <li><i class="fa fa-globe fa-fw"></i> <a href="cartdegolfsaguenay.com" target="_blank" rel="nofollow">Visit Dealer Website</a></li>
+                                <li><i class="fa fa-globe fa-fw"></i> <a href="https://www.facebook.com/VoituretteDeGolfSaguenay/" target="_blank" rel="nofollow">Visit Dealer Website</a></li>
                             </ul>
                         </div>
                     </div>
@@ -848,7 +851,7 @@
 							<span>Recreation Sport Carts</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/RecreationSportsCarts.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/RecreationSportsCarts.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -888,7 +891,7 @@
 							<span>Superior Carts & Rentals</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/SuperiorCart.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/SuperiorCart.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
@@ -928,7 +931,7 @@
 							<span>Atlantic Golf Equipment Services Ltd.</span>
 						</div>
 						<div class="image">
-							<img src="img/dealers/AtlanticGolfEquipServicesLtd.png" class="img-responsive" />
+							<img src="<?php echo $path_prefix;?>img/dealers/AtlanticGolfEquipServicesLtd.png" class="img-responsive" />
 						</div>
 						<div class="address">
 							<ul>
