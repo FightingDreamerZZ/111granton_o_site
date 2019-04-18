@@ -670,7 +670,9 @@ footer #dealer-directory-button:hover { background-color:#445500; color:#fff;}
 #section_features_promo p { font-size:16px; color:#000; text-shadow:1px 1px 5px #ccc; margin-top:15px; text-align:center;}
 #section_features_promo h4 { color:#87ad4a; margin-top:30px; padding-bottom:5px; border-bottom:1px solid #4e7fb9; font-size:24px;}
 @media (min-width: 1250px) {
-    #container_navbar {width:1240px;}
+    #container_navbar {
+        /*width:1240px; /*zz: for coupon promotion*/
+    }
 }
 .blue-link-low-profile{
     text-decoration: underline;

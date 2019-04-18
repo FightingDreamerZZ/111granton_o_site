@@ -1260,9 +1260,9 @@
 					<li class="link">
 						<a href="contact-us.php">Contact Us</a>
 					</li>
-                    <li class="link">
-                        <a href="promotion.php">Promotion</a>
-                    </li>
+                    <!--<li class="link"><!--zz couponPromo-->
+                        <!--<a href="promotion.php">Promotion</a>
+                    </li>-->
 
                 </ul>
 			</div>
